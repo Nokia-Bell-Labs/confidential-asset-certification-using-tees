@@ -1,0 +1,12 @@
+{
+    "name": "sbom/verifiable_sbom_generation",
+    "inputs":
+    [
+    ],
+    "code_build_args": 
+    {
+        "IMAGE_NAME": "nvidia/cuda:13.1.1-cudnn-devel-ubuntu24.04",
+        "TRIVY_VERSION": "v0.69.3"
+    },
+    "code_folder": "code/"
+}

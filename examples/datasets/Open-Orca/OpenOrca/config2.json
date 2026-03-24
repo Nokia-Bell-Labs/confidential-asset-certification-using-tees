@@ -1,0 +1,13 @@
+{
+    "name": "Open-Orca/OpenOrca",
+    "inputs":
+    [
+        {
+            "upload_method": "hf_url",
+            "asset_type": "dataset",
+            "asset_id": "Open-Orca/OpenOrca",
+            "input_filter_filename": "hf_config_filter.txt"
+        }
+    ],
+    "code_folder": "../../code/tabular_info/"
+}

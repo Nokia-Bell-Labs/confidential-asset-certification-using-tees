@@ -1,0 +1,14 @@
+{
+    "name": "bigcode/the-stack-dedup",
+    "inputs":
+    [
+        {
+            "upload_method": "hf_url",
+            "asset_type": "dataset",
+            "asset_id": "bigcode/the-stack-dedup",
+            "input_filter_filename": "hf_config_filter.txt",
+            "token_path": "../../../dev_test_docker/hf_token"
+        }
+    ],
+    "code_folder": "code/"
+}

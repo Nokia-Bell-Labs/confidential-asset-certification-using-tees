@@ -1,0 +1,6 @@
+{
+  "task": "AmazonCounterfactualClassification",
+  "metric_name": "accuracy",
+  "metric_value": 0.672379847560048,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

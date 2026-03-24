@@ -1,0 +1,186 @@
+{
+    "duet_admin_quote": {
+        "quote": "AwACAAAAAAALABAAk5pyM/ecTKmUCg2zlX8GB2IkyMHFsQZL7FmqUX1/dJ0AAAAAEBAREP//AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQAAAAAAAADnAAAAAAAAAJzTiw9pVi6B9a5Q4aV7ebRU9/aFlafU5eNLbHXE0VTIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAUHJPu1BTbqUBJ+Xzc8C7Frvoq3zSFTXMwEmdjnIrxzwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA7wpt7SQyWyPpOSc95vDlD/1gwmnuVA7uzo+HFPG8R5wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxhAAAKljwi3qPMjly82g1wnt0RBJx8jmaYbjpBa+66TOXOEmbq0iutJUyCP4zw/LoEHb0NBACDppsXH+o2ijDrpfz+XRu0CVrszAuXEQUTZJrBZHZAWqpJ4HYTkE+mPUn+CR74nYEoBOAItFvAlCMeyHBFZ+dQS1q5hmWr4LxZkpl7mAEBAREP//AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFQAAAAAAAADnAAAAAAAAAHj+jP0BCVoPEIr/XEBiS5NhLWwotz4ajSgXnJ3fDgaGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACMT1d115ZQPpYTf3fGioKaAFasje1wFAsIGwlEkMV7/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB7HuIujYk6Zt6YT5Gib3m+n5syKJ3AbBAI7bAkCoOKCQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/c2I39N9WHZadbUejrtmhcwqQEl3sH/+595caIgMuRDhK8oxBrc2KbJl4pL15frsDp0VkuhBW1y6d2MgI7UsuiAAAAECAwQFBgcICQoLDA0ODxAREhMUFRYXGBkaGxwdHh8FAF4OAAAtLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0KTUlJRThUQ0NCSmlnQXdJQkFnSVVJV3Rjb0JhUVd3ZGI5NmJSWVo3bzdSbm9OSzR3Q2dZSUtvWkl6ajBFQXdJdwpjREVpTUNBR0ExVUVBd3daU1c1MFpXd2dVMGRZSUZCRFN5QlFiR0YwWm05eWJTQkRRVEVhTUJnR0ExVUVDZ3dSClNXNTBaV3dnUTI5eWNHOXlZWFJwYjI0eEZEQVNCZ05WQkFjTUMxTmhiblJoSUVOc1lYSmhNUXN3Q1FZRFZRUUkKREFKRFFURUxNQWtHQTFVRUJoTUNWVk13SGhjTk1qVXdOakkxTVRjeE9UUTRXaGNOTXpJd05qSTFNVGN4T1RRNApXakJ3TVNJd0lBWURWUVFEREJsSmJuUmxiQ0JUUjFnZ1VFTkxJRU5sY25ScFptbGpZWFJsTVJvd0dBWURWUVFLCkRCRkpiblJsYkNCRGIzSndiM0poZEdsdmJqRVVNQklHQTFVRUJ3d0xVMkZ1ZEdFZ1EyeGhjbUV4Q3pBSkJnTlYKQkFnTUFrTkJNUXN3Q1FZRFZRUUdFd0pWVXpCWk1CTUdCeXFHU000OUFnRUdDQ3FHU000OUF3RUhBMElBQlBOeQpIdXdqWU9kbElza3dMamt5ZXdPUGhOU0VMSDVKb2VINWlqYndBZHVSWkYyRUFHOFhDblVzZWpNRm52VVVSbWw4CjFBcFRETy9USDZRb0hQUlBmNktqZ2dNT01JSURDakFmQmdOVkhTTUVHREFXZ0JTVmIxM052UnZoNlVCSnlkVDAKTTg0QlZ3dmVWREJyQmdOVkhSOEVaREJpTUdDZ1hxQmNobHBvZEhSd2N6b3ZMMkZ3YVM1MGNuVnpkR1ZrYzJWeQpkbWxqWlhNdWFXNTBaV3d1WTI5dEwzTm5lQzlqWlhKMGFXWnBZMkYwYVc5dUwzWTBMM0JqYTJOeWJEOWpZVDF3CmJHRjBabTl5YlNabGJtTnZaR2x1Wnoxa1pYSXdIUVlEVlIwT0JCWUVGSGFNZHZXd1BuNDRaVStjdlplZkFiWHcKbGhydE1BNEdBMVVkRHdFQi93UUVBd0lHd0RBTUJnTlZIUk1CQWY4RUFqQUFNSUlDT3dZSktvWklodmhOQVEwQgpCSUlDTERDQ0FpZ3dIZ1lLS29aSWh2aE5BUTBCQVFRUXA0WkhheEhvTDd3NFJLdjU2enZKS1RDQ0FXVUdDaXFHClNJYjRUUUVOQVFJd2dnRlZNQkFHQ3lxR1NJYjRUUUVOQVFJQkFnRVFNQkFHQ3lxR1NJYjRUUUVOQVFJQ0FnRVEKTUJBR0N5cUdTSWI0VFFFTkFRSURBZ0VETUJBR0N5cUdTSWI0VFFFTkFRSUVBZ0VETUJFR0N5cUdTSWI0VFFFTgpBUUlGQWdJQS96QVJCZ3NxaGtpRytFMEJEUUVDQmdJQ0FQOHdFQVlMS29aSWh2aE5BUTBCQWdjQ0FRRXdFQVlMCktvWklodmhOQVEwQkFnZ0NBUUF3RUFZTEtvWklodmhOQVEwQkFna0NBUUF3RUFZTEtvWklodmhOQVEwQkFnb0MKQVFBd0VBWUxLb1pJaHZoTkFRMEJBZ3NDQVFBd0VBWUxLb1pJaHZoTkFRMEJBZ3dDQVFBd0VBWUxLb1pJaHZoTgpBUTBCQWcwQ0FRQXdFQVlMS29aSWh2aE5BUTBCQWc0Q0FRQXdFQVlMS29aSWh2aE5BUTBCQWc4Q0FRQXdFQVlMCktvWklodmhOQVEwQkFoQUNBUUF3RUFZTEtvWklodmhOQVEwQkFoRUNBUTB3SHdZTEtvWklodmhOQVEwQkFoSUUKRUJBUUF3UC8vd0VBQUFBQUFBQUFBQUF3RUFZS0tvWklodmhOQVEwQkF3UUNBQUF3RkFZS0tvWklodmhOQVEwQgpCQVFHQUdCcUFBQUFNQThHQ2lxR1NJYjRUUUVOQVFVS0FRRXdIZ1lLS29aSWh2aE5BUTBCQmdRUU9ISm9sQzZHCjV4U1NXY1VwcWlRRnhqQkVCZ29xaGtpRytFMEJEUUVITURZd0VBWUxLb1pJaHZoTkFRMEJCd0VCQWY4d0VBWUwKS29aSWh2aE5BUTBCQndJQkFRQXdFQVlMS29aSWh2aE5BUTBCQndNQkFRQXdDZ1lJS29aSXpqMEVBd0lEUndBdwpSQUlnYXJNNXdUMzdmQjQ3bGFMNG43dzRndkNHMCtiWDJPR3FXYTZMeHdTQWZGUUNJSGZuTWQxVWVOdXhqTHpCCkk2UWRjY0xBbXFVK2hJVENNaUJoWkpqdzNSNzkKLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQotLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0KTUlJQ2xqQ0NBajJnQXdJQkFnSVZBSlZ2WGMyOUcrSHBRRW5KMVBRenpnRlhDOTVVTUFvR0NDcUdTTTQ5QkFNQwpNR2d4R2pBWUJnTlZCQU1NRVVsdWRHVnNJRk5IV0NCU2IyOTBJRU5CTVJvd0dBWURWUVFLREJGSmJuUmxiQ0JECmIzSndiM0poZEdsdmJqRVVNQklHQTFVRUJ3d0xVMkZ1ZEdFZ1EyeGhjbUV4Q3pBSkJnTlZCQWdNQWtOQk1Rc3cKQ1FZRFZRUUdFd0pWVXpBZUZ3MHhPREExTWpFeE1EVXdNVEJhRncwek16QTFNakV4TURVd01UQmFNSEF4SWpBZwpCZ05WQkFNTUdVbHVkR1ZzSUZOSFdDQlFRMHNnVUd4aGRHWnZjbTBnUTBFeEdqQVlCZ05WQkFvTUVVbHVkR1ZzCklFTnZjbkJ2Y21GMGFXOXVNUlF3RWdZRFZRUUhEQXRUWVc1MFlTQkRiR0Z5WVRFTE1Ba0dBMVVFQ0F3Q1EwRXgKQ3pBSkJnTlZCQVlUQWxWVE1Ga3dFd1lIS29aSXpqMENBUVlJS29aSXpqMERBUWNEUWdBRU5TQi83dDIxbFhTTwoyQ3V6cHh3NzRlSkI3MkV5REdnVzVyWEN0eDJ0VlRMcTZoS2s2eitVaVJaQ25xUjdwc092Z3FGZVN4bG1UbEpsCmVUbWkyV1l6M3FPQnV6Q0J1REFmQmdOVkhTTUVHREFXZ0JRaVpReldXcDAwaWZPRHRKVlN2MUFiT1NjR3JEQlMKQmdOVkhSOEVTekJKTUVlZ1JhQkRoa0ZvZEhSd2N6b3ZMMk5sY25ScFptbGpZWFJsY3k1MGNuVnpkR1ZrYzJWeQpkbWxqWlhNdWFXNTBaV3d1WTI5dEwwbHVkR1ZzVTBkWVVtOXZkRU5CTG1SbGNqQWRCZ05WSFE0RUZnUVVsVzlkCnpiMGI0ZWxBU2NuVTlEUE9BVmNMM2xRd0RnWURWUjBQQVFIL0JBUURBZ0VHTUJJR0ExVWRFd0VCL3dRSU1BWUIKQWY4Q0FRQXdDZ1lJS29aSXpqMEVBd0lEUndBd1JBSWdYc1ZraTB3K2k2VllHVzNVRi8yMnVhWGUwWUpEajFVZQpuQStUakQxYWk1Y0NJQ1liMVNBbUQ1eGtmVFZwdm80VW95aVNZeHJEV0xtVVI0Q0k5Tkt5ZlBOKwotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCi0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLQpNSUlDanpDQ0FqU2dBd0lCQWdJVUltVU0xbHFkTkluemc3U1ZVcjlRR3prbkJxd3dDZ1lJS29aSXpqMEVBd0l3CmFERWFNQmdHQTFVRUF3d1JTVzUwWld3Z1UwZFlJRkp2YjNRZ1EwRXhHakFZQmdOVkJBb01FVWx1ZEdWc0lFTnYKY25CdmNtRjBhVzl1TVJRd0VnWURWUVFIREF0VFlXNTBZU0JEYkdGeVlURUxNQWtHQTFVRUNBd0NRMEV4Q3pBSgpCZ05WQkFZVEFsVlRNQjRYRFRFNE1EVXlNVEV3TkRVeE1Gb1hEVFE1TVRJek1USXpOVGsxT1Zvd2FERWFNQmdHCkExVUVBd3dSU1c1MFpXd2dVMGRZSUZKdmIzUWdRMEV4R2pBWUJnTlZCQW9NRVVsdWRHVnNJRU52Y25CdmNtRjAKYVc5dU1SUXdFZ1lEVlFRSERBdFRZVzUwWVNCRGJHRnlZVEVMTUFrR0ExVUVDQXdDUTBFeEN6QUpCZ05WQkFZVApBbFZUTUZrd0V3WUhLb1pJemowQ0FRWUlLb1pJemowREFRY0RRZ0FFQzZuRXdNRElZWk9qL2lQV3NDemFFS2k3CjFPaU9TTFJGaFdHamJuQlZKZlZua1k0dTNJamtEWVlMME14TzRtcXN5WWpsQmFsVFZZeEZQMnNKQks1emxLT0IKdXpDQnVEQWZCZ05WSFNNRUdEQVdnQlFpWlF6V1dwMDBpZk9EdEpWU3YxQWJPU2NHckRCU0JnTlZIUjhFU3pCSgpNRWVnUmFCRGhrRm9kSFJ3Y3pvdkwyTmxjblJwWm1sallYUmxjeTUwY25WemRHVmtjMlZ5ZG1salpYTXVhVzUwClpXd3VZMjl0TDBsdWRHVnNVMGRZVW05dmRFTkJMbVJsY2pBZEJnTlZIUTRFRmdRVUltVU0xbHFkTkluemc3U1YKVXI5UUd6a25CcXd3RGdZRFZSMFBBUUgvQkFRREFnRUdNQklHQTFVZEV3RUIvd1FJTUFZQkFmOENBUUV3Q2dZSQpLb1pJemowRUF3SURTUUF3UmdJaEFPVy81UWtSK1M5Q2lTRGNOb293THVQUkxzV0dmL1lpN0dTWDk0Qmd3VHdnCkFpRUE0SjBsckhvTXMrWG81by9zWDZPOVFXeEhSQXZaVUdPZFJRN2N2cVJYYXFJPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCgA=",
+        "public_key": "-----BEGIN PUBLIC KEY-----\nMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt9DHUNWAprCRaPC7vo86\n5bTYNiiCGqhENRNK09KhcESOjldzUf+Bpf+yoIO8sbQXGtgBfE1Bbsp5CptU9ncU\nxAH6UvigRAQ8IwbEaWutRkQ59Rhf858xv2shEEKc+o0lMv/L10Dx/OSdXxMHh5gr\nPlWE0UJiugh3L7qpLTPWx7LLSxNczF0oQWehrENzmMPtJFphnMfPyBBKZ7froFXj\n7Zy7zSG1377HsAnBM58ZCFggzDB8UulOKwZXHTlELr13oRaH8JcOpviWo/20pSp8\nskVaUY941mGzUNyNxNPhkCDHnH+o8yw2UmF09UTJquFZGu8iXGPEGOwPf1IXmtpU\nXDtfFj044uxay6w/tEqSkwZdAozYYW9eaKmpWIzwWlIFrDphX5soBxVGgYuS4Wha\nMDZdj/GkOBVFYUPS/AvdkI3tZSPSbIf2zE2WsDmoZg9il4/siuGLzKWSXU4vKBNq\ni0vL1WxbhdF03ORpD+tTLMvh0D/m51gptVYh7/yAK+OC1ZVQvNZRy5EfFckxTFSR\nA486F/aqblz3zZ2p043xMHfGjLgxLjKP/Gh5cr6UmFwyHzJZ7EAJ7C/JPNv97EA5\nGEVGn+a+3sVHM4hnVmLcOffr3pLlTAz727jlbimStgFnbizStHghf+40/UISsDF0\nVuh8nkdZgVw5QcArXNyVTzECAwEAAQ==\n-----END PUBLIC KEY-----\n"
+    },
+    "duet_admin_attestation_service_url": "https://sharedneu.neu.attest.azure.net",
+    "duet_service_result": {
+        "service_info": {
+            "service_code_hash": "b853d36744e9ca4b7105b25c5e3dd26d91c99f166bce1ed8264bbf77eaefe683",
+            "service_dependencies_hash": "06e8368f5451b021c83ac2b41ceac201a5bcdba3193377d84a7c0b0ffffb1e29",
+            "service_location": {
+                "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad": {
+                    "cloud_provider_metadata_result": {
+                        "azEnvironment": "AzurePublicCloud",
+                        "location": "westeurope"
+                    },
+                    "geoip_api_lookup_result": {
+                        "http://ip-api.com/json/": {
+                            "city": "Amsterdam",
+                            "country": "Netherlands",
+                            "countryCode": "NL",
+                            "lat": 52.3667,
+                            "lon": 4.9
+                        },
+                        "https://api.ipwho.org/ip/": {},
+                        "https://apip.cc/json": {
+                            "City": "Amsterdam",
+                            "CountryCode": "NL",
+                            "CountryName": "The Netherlands",
+                            "Latitude": "52.3759",
+                            "Longitude": "4.8975"
+                        },
+                        "https://free.freeipapi.com/api/json/": {
+                            "cityName": "Amsterdam",
+                            "countryCode": "NL",
+                            "countryName": "The Netherlands",
+                            "latitude": 52.3676,
+                            "longitude": 4.90414
+                        },
+                        "https://geoapi.info/api/geo": {},
+                        "https://ipinfo.io/": {
+                            "city": "Amsterdam",
+                            "country": "NL",
+                            "loc": "52.3740,4.8897"
+                        },
+                        "https://reallyfreegeoip.org/json/": {
+                            "city": "Amsterdam",
+                            "country_code": "NL",
+                            "country_name": "The Netherlands",
+                            "latitude": 52.3759,
+                            "longitude": 4.8975
+                        }
+                    },
+                    "rtt_based_estimation_result": {
+                        "closest_areas_rtt_ms": {
+                            "Alphen Aan Den Rijn, NL": 3.077,
+                            "Amsterdam, NL": 0.924,
+                            "Arnhem, NL": 4.558,
+                            "Capelle Aan Den Ijssel, NL": 3.461,
+                            "Delft, NL": 2.712,
+                            "Dronten, NL": 2.116,
+                            "Duesseldorf, DE": 4.095,
+                            "Dusseldorf, DE": 4.006,
+                            "Ede, NL": 2.471,
+                            "Haarlem, NL": 1.609,
+                            "Harderwijk, NL": 3.516,
+                            "Hoofddorp, NL": 1.391,
+                            "Meppel, NL": 3.54,
+                            "Rotterdam, NL": 2.057,
+                            "Schiphol Rijk, NL": 1.834,
+                            "Steenbergen, NL": 5.167,
+                            "The Hague, NL": 2.77,
+                            "Utrecht, NL": 2.173,
+                            "Veendam, NL": 4.378,
+                            "Zaventem, BE": 4.891
+                        },
+                        "estimated_coordinates": {
+                            "latitude": 52.22671871201438,
+                            "longitude": 4.9838660105135135
+                        },
+                        "estimated_possible_countries": {
+                            "BE": 0.010135232050181674,
+                            "DE": 0.029566437866833068,
+                            "NL": 0.9602983300829852
+                        },
+                        "reverse_geocode_lookup": {
+                            "https://api.bigdatacloud.net/data/reverse-geocode-client": {
+                                "city": "Gemeente De Ronde Venen",
+                                "countryCode": "NL",
+                                "countryName": "Netherlands (Kingdom of the)"
+                            }
+                        }
+                    },
+                    "service_owner_config_result": "westeurope"
+                }
+            },
+            "service_tools_hashes": {
+                "build_tools.py": "95fb3d065af5c8c1b25e0cb22a76c193cafe57158c7eee85849bc1c94bf8f4ab",
+                "huggingface": "86e3b11ab5475b83ada1f34cae1089aff14eb236e3814fbb42228d517a5c8bb9"
+            }
+        },
+        "service_result": {
+            "certificates": {},
+            "hashes": {
+                "code": {
+                    "code.tar": "45d30ce24f7e30f467bdc93569d4fc15d8777cb9aeac49298f9b920a7a4bdb54"
+                },
+                "code_build_args": {},
+                "inputs": {
+                    "HF_CACHE/datasets/Idavidrein___gpqa/gpqa_diamond/0.0.0/633f5ee89ab8ad4522a9f850766b73f62147ffdd/dataset_info.json": "83657497922588b9bb1d2113b869c3f03aa4fd67668af6d69f4f3aabc31e3981",
+                    "HF_CACHE/datasets/Idavidrein___gpqa/gpqa_diamond/0.0.0/633f5ee89ab8ad4522a9f850766b73f62147ffdd/gpqa-train.arrow": "501f307f9e8bc34041af4120c8eb5a735f0ea29cd83c90167b913651071bb4c4",
+                    "HF_CACHE/datasets/Idavidrein___gpqa/gpqa_experts/0.0.0/633f5ee89ab8ad4522a9f850766b73f62147ffdd/dataset_info.json": "efecab08fa0bca83c6793ad463e631e68f9588e3d4b752cfe38edb23d0893f72",
+                    "HF_CACHE/datasets/Idavidrein___gpqa/gpqa_experts/0.0.0/633f5ee89ab8ad4522a9f850766b73f62147ffdd/gpqa-train.arrow": "d37596b40b81eb6b7e33bb542f61fbf6cfca73a9b7182eba3883b098c5572e1e",
+                    "HF_CACHE/datasets/Idavidrein___gpqa/gpqa_extended/0.0.0/633f5ee89ab8ad4522a9f850766b73f62147ffdd/dataset_info.json": "a1c4db68a94e6aed5b56b46a73bff67418633c3205253c81419bd448f4813ef0",
+                    "HF_CACHE/datasets/Idavidrein___gpqa/gpqa_extended/0.0.0/633f5ee89ab8ad4522a9f850766b73f62147ffdd/gpqa-train.arrow": "07910e9fa6fa25dee155d7042876fcd72b033b1ca9badb6294ee466b964c925c",
+                    "HF_CACHE/datasets/Idavidrein___gpqa/gpqa_main/0.0.0/633f5ee89ab8ad4522a9f850766b73f62147ffdd/dataset_info.json": "825ff47278a61cdd6db050a8f554fa21aec42f15cca3a9bb6330ffc7356cfead",
+                    "HF_CACHE/datasets/Idavidrein___gpqa/gpqa_main/0.0.0/633f5ee89ab8ad4522a9f850766b73f62147ffdd/gpqa-train.arrow": "00e9827a966334b425a93c2fedd7be929bd95e19cc6e078876677565a6712ca7",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/.no_exist/633f5ee89ab8ad4522a9f850766b73f62147ffdd/.huggingface.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/.no_exist/633f5ee89ab8ad4522a9f850766b73f62147ffdd/dataset_infos.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/.no_exist/633f5ee89ab8ad4522a9f850766b73f62147ffdd/gpqa.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/blobs/489f5153df4d1cd47be9ddce577302ab0826c8aa": "ed1c6864ddfe4c8aaf67b665d9901d36ec4fa8c09f08c5c4e5509865bc41a672",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/blobs/7589e3e467d69a1dceb126a60c4108d6d4f1d166": "41d1213cd7a4998605a26c2798500652572007161b3a92817ba46b35befcd305",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/blobs/bda2aacc8cd56ddca34817c7fb469536e505dd4d": "c703e934fa58d9ab66e470e5283de7d4c6ef02fe4ccb3e2d7fe97e5399e6eb36",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/blobs/de9aca41d9ec01f8cc41dbcd8b66134962679e5a": "acdeeac8f622267f2cd727d7d474202ea08dec80f7d3c3593b3ef8644f19b8e3",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/blobs/f2b4572784345f9e124f33fd3bc8f5b3ffd6258a": "0926ee24949d02ed6748eb75a2611546c34479e30ddc42efd01d6f1681aaa48a",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/refs/main": "e36ca2b0f9e4d76d56231721cb48fefc98346a8fa07c7d5c8bb450aed5ce410f",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/snapshots/633f5ee89ab8ad4522a9f850766b73f62147ffdd/README.md": "c703e934fa58d9ab66e470e5283de7d4c6ef02fe4ccb3e2d7fe97e5399e6eb36",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/snapshots/633f5ee89ab8ad4522a9f850766b73f62147ffdd/gpqa_diamond.csv": "41d1213cd7a4998605a26c2798500652572007161b3a92817ba46b35befcd305",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/snapshots/633f5ee89ab8ad4522a9f850766b73f62147ffdd/gpqa_experts.csv": "ed1c6864ddfe4c8aaf67b665d9901d36ec4fa8c09f08c5c4e5509865bc41a672",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/snapshots/633f5ee89ab8ad4522a9f850766b73f62147ffdd/gpqa_extended.csv": "0926ee24949d02ed6748eb75a2611546c34479e30ddc42efd01d6f1681aaa48a",
+                    "HF_CACHE/hub/datasets--Idavidrein--gpqa/snapshots/633f5ee89ab8ad4522a9f850766b73f62147ffdd/gpqa_main.csv": "acdeeac8f622267f2cd727d7d474202ea08dec80f7d3c3593b3ef8644f19b8e3",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/0ad5ecc2035b7031b88afb544ee95e2d49baa484": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/15cb0bf6b31f866b3c39eda6c623f8602a44ebd2c88546ea1a79108338e10244": "15cb0bf6b31f866b3c39eda6c623f8602a44ebd2c88546ea1a79108338e10244",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/59cffb618a772d1b173d6b8c18fb109effbc7bb80e8766792d146eb154fb09bf": "59cffb618a772d1b173d6b8c18fb109effbc7bb80e8766792d146eb154fb09bf",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/6257c098ccf81df1ed11e8e337a61b74d38b0286": "a1fe6f43e20f7a6c6dbc6380222af9526b5cef262446391a281c038249e3e3b7",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/634bd10299cff46ee3423b9e5c023da6051e66dd0b22897fbcbc61aa6938921e": "634bd10299cff46ee3423b9e5c023da6051e66dd0b22897fbcbc61aa6938921e",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/6409146fa2e15e0643505846a44fe30d008f493d": "d0df27778d7caa8acc0c2d8eb5cfc11135da6226dbae8c12cc85d0ce6067faaa",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/69503b13f727ba3812b6803e97442a6de05ef5eb": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/7abc03d56a5870d638825479efa2760d8c896e6d": "362068c1516d46216f5c291d9c4827769de49aecb02d2819439263574e95faf6",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/9fc89b8ea13d2e8ee3edcc19e728af1eb556ae4945824998a61d9cbbb8029df2": "9fc89b8ea13d2e8ee3edcc19e728af1eb556ae4945824998a61d9cbbb8029df2",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/a6344aac8c09253b3b630fb776ae94478aa0275b": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/b6d52af19a92e70b0968e451616e1b358842094a9096fd30f579ac9fb2fee52c": "b6d52af19a92e70b0968e451616e1b358842094a9096fd30f579ac9fb2fee52c",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/c7a387d6fe81ca6dd304aeb809bda3932ff1bbef3ca41c9484502f2f448dc093": "c7a387d6fe81ca6dd304aeb809bda3932ff1bbef3ca41c9484502f2f448dc093",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/d24ec7febe99ed0bae973990374a3498f879f33a": "238ad6b60d48e471624ea70bc79e92f2611844d5016471fee8c167854bcb98e8",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/df34bb6eed918d526104613cd8e7d88bb8b8cd837e3adfe9967287280e9184b3": "df34bb6eed918d526104613cd8e7d88bb8b8cd837e3adfe9967287280e9184b3",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/f6652f246cb895ca1edfb16d10b57917b266e335": "e786b595b9a23148bf1630df78d9037a048ea671e48bfd3549a1e3c233742bb3",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/blobs/f922b1797f0c88e71addc8393787831f2477a4bd": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/refs/main": "a5834d5a0831828bfc0495bbc29e9c678faf5791d2b7fdf0a7af4cb4535052e0",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/.gitattributes": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/README.md": "362068c1516d46216f5c291d9c4827769de49aecb02d2819439263574e95faf6",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/config.json": "a1fe6f43e20f7a6c6dbc6380222af9526b5cef262446391a281c038249e3e3b7",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/generation_config.json": "d0df27778d7caa8acc0c2d8eb5cfc11135da6226dbae8c12cc85d0ce6067faaa",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/merges.txt": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/model.safetensors": "c7a387d6fe81ca6dd304aeb809bda3932ff1bbef3ca41c9484502f2f448dc093",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/onnx/model.onnx": "59cffb618a772d1b173d6b8c18fb109effbc7bb80e8766792d146eb154fb09bf",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/onnx/model_bnb4.onnx": "df34bb6eed918d526104613cd8e7d88bb8b8cd837e3adfe9967287280e9184b3",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/onnx/model_fp16.onnx": "b6d52af19a92e70b0968e451616e1b358842094a9096fd30f579ac9fb2fee52c",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/onnx/model_int8.onnx": "9fc89b8ea13d2e8ee3edcc19e728af1eb556ae4945824998a61d9cbbb8029df2",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/onnx/model_q4.onnx": "634bd10299cff46ee3423b9e5c023da6051e66dd0b22897fbcbc61aa6938921e",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/onnx/model_quantized.onnx": "9fc89b8ea13d2e8ee3edcc19e728af1eb556ae4945824998a61d9cbbb8029df2",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/onnx/model_uint8.onnx": "15cb0bf6b31f866b3c39eda6c623f8602a44ebd2c88546ea1a79108338e10244",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/special_tokens_map.json": "e786b595b9a23148bf1630df78d9037a048ea671e48bfd3549a1e3c233742bb3",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/tokenizer.json": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/tokenizer_config.json": "238ad6b60d48e471624ea70bc79e92f2611844d5016471fee8c167854bcb98e8",
+                    "HF_CACHE/hub/models--HuggingFaceTB--SmolLM-135M/snapshots/1d461723eec654e65efdc40cf49301c89c0c92f4/vocab.json": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+                    "dotenv": "db2e7e65b6022966bd0ea6703ce063ed685862a30f462bff3a82c984a6a321ff"
+                },
+                "outputs": {
+                    "HuggingFaceTB__SmolLM-135M/results_2026-03-23T13-16-45.188902.json": "744958b60de980283819fef31e560e9a4116c290315180654a70545953652ce9"
+                }
+            },
+            "power_usage": {
+                "codecarbon": {
+                    "01_uploads": 4.165443241034638e-05,
+                    "02_preparing_downloading_files": 0.0006833263453744515,
+                    "03_preparing_computing_hashes": 6.894424515578587e-05,
+                    "04_preparing_building_container_image": 0.016456646158359716,
+                    "05_running": 0.10173402711825016,
+                    "99_total_power_usage_KWh": 0.11898459829955046
+                }
+            },
+            "timestamp": 1774271809.9900117
+        }
+    },
+    "duet_admin_signature": "KMYQaWTyH1Nd5eTKgS/XUEHN1Yt3X8L2BxkLCXq850g7znnw/yUXVrctGDntyaYUjTGblB66Ft8Z3DN55nM8vsQO8RL61kDGKvznIgCM1aid2YsnZm020i21/zFqaZhmD6sXUrykYEZGzvMo99+x+NfZbZOwEHoVh9+tKF6Kueo9ZSIYuEWvh0dX+k/PnfvEXbcZXekPHNVpZduVmBQYbysWV/FezD3XBi61ti6iBW1AIaxyfcpi9r2eyprDmhiv8xxXtZ3oBID24Dd8rCj/6wuxLOE+LTxpooLc/M+2L6riql5rZIuI3pcpj2hjmRkjUjNYd0AFOsKWbvH2kahdhmGUbCRmFz/bXlWPKIpsbQlfx+E8OXW8e+gWe9MWovmAUBTNPcwTYuhhutN5LD2zB62juIl6aop7Y7DhaSNwqOduD6MgM91jLQ6rModUqKLUlDRB90owHM3P9usDJLL4jsN2JWST1gP62DO41aP088yOQTaaxnXJih2hAXNdbZxG4NkgZ3AObH0TzwE5ccVBcRXnaYR/MLsBDXUKH07Xe4vFhyKxw7pYQhgp5SCzxBzzA/oEiG2UjEVOHKXLfFw4fWBScdklAOfDrhAdGQWF6kXhbHP4so4CedvSV5pPBCB7+VR6/uEU0ZOruKA1XrQ8Qq4CpL78EyO1fOmHamtVXAc="
+}

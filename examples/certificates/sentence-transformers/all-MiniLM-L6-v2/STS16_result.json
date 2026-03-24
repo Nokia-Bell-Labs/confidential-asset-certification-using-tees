@@ -1,0 +1,6 @@
+{
+  "task": "STS16",
+  "metric_name": "cosine_spearman",
+  "metric_value": 0.7898945343973262,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

@@ -1,0 +1,9 @@
+# © 2026 Nokia
+# Licensed under the BSD 3-Clause Clear License
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+
+huggingface_hub[cli]==0.29.1
+pyyaml==5.4.1
+cryptography==45.0.7
+docker==7.1.0
+datasets==4.8.3

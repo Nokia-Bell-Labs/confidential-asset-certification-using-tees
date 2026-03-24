@@ -1,0 +1,6 @@
+{
+  "task": "MultiHateClassification",
+  "metric_name": "accuracy",
+  "metric_value": 0.5401727272727274,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "TwitterURLCorpus",
+  "metric_name": "max_ap",
+  "metric_value": 0.847016575034099,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

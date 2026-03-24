@@ -1,0 +1,6 @@
+{
+  "task": "BiorxivClusteringP2P.v2",
+  "metric_name": "v_measure",
+  "metric_value": 0.41204100888612877,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

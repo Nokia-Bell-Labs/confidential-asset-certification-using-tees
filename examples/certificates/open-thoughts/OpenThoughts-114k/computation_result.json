@@ -1,0 +1,206 @@
+{
+    "data": {
+        "columns": {
+            "conversations": {
+                "column_count_datatypes": {
+                    "<class 'numpy.ndarray'>": 113957
+                },
+                "column_count_null": 0,
+                "column_name": "conversations",
+                "data_length_ranges": {
+                    "<class 'numpy.ndarray'>": {
+                        "2": 113957
+                    }
+                }
+            },
+            "system": {
+                "column_count_datatypes": {
+                    "<class 'str'>": 113957
+                },
+                "column_count_null": 0,
+                "column_name": "system",
+                "data_categories": {
+                    "<class 'str'>": "1 class(es)"
+                }
+            }
+        },
+        "filenames": [
+            "open-thoughts/OpenThoughts-114k/data/train-00004-of-00006.parquet",
+            "open-thoughts/OpenThoughts-114k/data/train-00001-of-00006.parquet",
+            "open-thoughts/OpenThoughts-114k/data/train-00003-of-00006.parquet",
+            "open-thoughts/OpenThoughts-114k/data/train-00005-of-00006.parquet",
+            "open-thoughts/OpenThoughts-114k/data/train-00002-of-00006.parquet",
+            "open-thoughts/OpenThoughts-114k/data/train-00000-of-00006.parquet"
+        ],
+        "number_of_items": 113957,
+        "timestamp": 1774336718.29677
+    },
+    "metadata": {
+        "columns": {
+            "deepseek_reasoning": {
+                "column_count_datatypes": {
+                    "<class 'str'>": 113957
+                },
+                "column_count_null": 0,
+                "column_name": "deepseek_reasoning",
+                "data_length_ranges": {
+                    "<class 'str'>": {
+                        "106420-119634": 20,
+                        "119634-132843": 1,
+                        "13922-27136": 29100,
+                        "27136-40350": 13111,
+                        "40350-53564": 7811,
+                        "53564-66778": 4122,
+                        "66778-79992": 1406,
+                        "708-13922": 57944,
+                        "79992-93206": 368,
+                        "93206-106420": 74
+                    }
+                }
+            },
+            "deepseek_solution": {
+                "column_count_datatypes": {
+                    "<class 'str'>": 113957
+                },
+                "column_count_null": 0,
+                "column_name": "deepseek_solution",
+                "data_length_ranges": {
+                    "<class 'str'>": {
+                        "0-1330": 33573,
+                        "10640-11970": 7,
+                        "11970-13295": 4,
+                        "13295-13295": 1,
+                        "1330-2660": 67488,
+                        "2660-3990": 10015,
+                        "3990-5320": 2254,
+                        "5320-6650": 433,
+                        "6650-7980": 130,
+                        "7980-9310": 40,
+                        "9310-10640": 12
+                    }
+                }
+            },
+            "domain": {
+                "column_count_datatypes": {
+                    "<class 'str'>": 113957
+                },
+                "column_count_null": 0,
+                "column_name": "domain",
+                "data_categories": {
+                    "<class 'str'>": "6 class(es)"
+                }
+            },
+            "ground_truth_solution": {
+                "column_count_datatypes": {
+                    "<class 'str'>": 90339
+                },
+                "column_count_null": 23618,
+                "column_name": "ground_truth_solution",
+                "data_length_ranges": {
+                    "<class 'str'>": {
+                        "1-834": 4114,
+                        "1667-2500": 44589,
+                        "2500-3333": 14720,
+                        "3333-4166": 1773,
+                        "4166-4999": 228,
+                        "4999-5832": 44,
+                        "5832-6665": 18,
+                        "6665-7498": 7,
+                        "7498-8326": 1,
+                        "8326-8326": 1,
+                        "834-1667": 24844
+                    }
+                }
+            },
+            "problem": {
+                "column_count_datatypes": {
+                    "<class 'str'>": 113957
+                },
+                "column_count_null": 0,
+                "column_name": "problem",
+                "data_length_ranges": {
+                    "<class 'str'>": {
+                        "11168-12562": 0,
+                        "1410-2804": 8338,
+                        "16-1410": 104451,
+                        "2804-4198": 1016,
+                        "4198-5592": 132,
+                        "5592-6986": 15,
+                        "6986-8380": 3,
+                        "8380-9774": 1,
+                        "9774-11168": 0,
+                        "9774-13955": 1
+                    }
+                }
+            },
+            "source": {
+                "column_count_datatypes": {
+                    "<class 'str'>": 113957
+                },
+                "column_count_null": 0,
+                "column_name": "source",
+                "data_categories": {
+                    "<class 'str'>": "9 class(es)"
+                }
+            },
+            "starter_code": {
+                "column_count_datatypes": {
+                    "<class 'str'>": 19904
+                },
+                "column_count_null": 94053,
+                "column_name": "starter_code",
+                "data_length_ranges": {
+                    "<class 'str'>": {
+                        "0-147": 19471,
+                        "1029-1176": 2,
+                        "1176-1323": 0,
+                        "1176-1466": 1,
+                        "147-294": 317,
+                        "294-441": 86,
+                        "441-588": 20,
+                        "588-735": 4,
+                        "735-882": 1,
+                        "882-1029": 2
+                    }
+                }
+            },
+            "test_cases": {
+                "column_count_datatypes": {
+                    "<class 'str'>": 19904
+                },
+                "column_count_null": 94053,
+                "column_name": "test_cases",
+                "data_length_ranges": {
+                    "<class 'str'>": {
+                        "15846163-23769228": 18,
+                        "23769228-31692293": 5,
+                        "31692293-39615358": 2,
+                        "33-7923098": 19834,
+                        "39615358-47538423": 2,
+                        "47538423-55461488": 2,
+                        "55461488-63384553": 1,
+                        "63384553-71307618": 0,
+                        "63384553-79230674": 1,
+                        "7923098-15846163": 39
+                    }
+                }
+            }
+        },
+        "filenames": [
+            "open-thoughts/OpenThoughts-114k/metadata/train-00002-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00004-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00000-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00010-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00001-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00009-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00006-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00005-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00011-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00008-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00007-of-00012.parquet",
+            "open-thoughts/OpenThoughts-114k/metadata/train-00003-of-00012.parquet"
+        ],
+        "number_of_items": 113957,
+        "timestamp": 1774336714.5519903
+    }
+}

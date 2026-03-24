@@ -1,0 +1,13 @@
+{
+    "name": "AquaV/fallout-4-voices",
+    "inputs":
+    [
+        {
+            "upload_method": "hf_url",
+            "asset_type": "dataset",
+            "asset_id": "AquaV/fallout-4-voices",
+            "input_filter_filename": "hf_config_filter.txt"
+        }
+    ],
+    "code_folder": "code/"
+}

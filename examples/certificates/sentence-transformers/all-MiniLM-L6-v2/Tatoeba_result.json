@@ -1,0 +1,6 @@
+{
+  "task": "Tatoeba",
+  "metric_name": "f1",
+  "metric_value": 0.0387681767142979,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

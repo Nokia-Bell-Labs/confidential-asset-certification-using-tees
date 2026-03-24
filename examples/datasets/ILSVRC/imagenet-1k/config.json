@@ -1,0 +1,13 @@
+{
+    "name": "ILSVRC/imagenet-1k",
+    "inputs":
+    [
+        {
+            "upload_method": "url",
+            "asset_url": "https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_val.tar",
+            "sha256": "c7e06a6c0baccf06d8dbeb6577d71efff84673a5dbdd50633ab44f8ea0456ae0",
+            "asset_id": "ILSVRC/imagenet-1k"
+        }
+    ],
+    "code_folder": "code/"
+}

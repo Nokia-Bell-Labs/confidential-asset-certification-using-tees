@@ -1,0 +1,11 @@
+# © 2026 Nokia
+# Licensed under the BSD 3-Clause Clear License
+# SPDX-License-Identifier: BSD-3-Clause-Clear
+
+python-dotenv==1.2.2
+click==8.3.1
+jinja2==3.0.2
+tomli==2.4.0
+tomli-w==1.2.0
+toml==0.10.2
+voluptuous==0.16.0

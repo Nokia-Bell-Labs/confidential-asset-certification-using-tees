@@ -1,0 +1,165 @@
+{
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "inputs":
+    [
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/multilingual-scala-classification",
+            "token_path": "../../../dev_test_docker/hf_token"
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "AI-Sweden/SuperLim",
+            "token_path": "../../../dev_test_docker/hf_token"
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "isaacchung/macedonian-tweet-sentiment-classification",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/stackexchange-clustering",
+            "token_path": "../../../dev_test_docker/hf_token"
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/sts12-sts",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/tatoeba-bitext-mining",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/amazon_counterfactual",
+            "token_path": "../../../dev_test_docker/hf_token"
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/arxiv-clustering-s2s",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/sts13-sts",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/sts14-sts",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/sts15-sts",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/sts16-sts",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/sts17-crosslingual-sts",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/sts22-crosslingual-sts",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/stsbenchmark-sts",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/sprintduplicatequestions-pairclassification",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/twitterurlcorpus-pairclassification",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "PL-MTEB/ppc-pairclassification",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "gentaiscool/nusaparagraph_emot",
+            "token_path": "../../../dev_test_docker/hf_token"
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/biorxiv-clustering-p2p",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/multi-hatecheck",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/toxic_conversations_50k",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_url",
+            "asset_type": "model",
+            "asset_id": "sentence-transformers/all-MiniLM-L6-v2"
+        },
+        {
+            "upload_method": "direct",
+            "input_folder": "inputs/"
+        }
+    ],
+    "code_folder": "code/gpu/"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "ArXivHierarchicalClusteringS2S",
+  "metric_name": "v_measure",
+  "metric_value": 0.5469560297530499,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

@@ -1,0 +1,6 @@
+{
+  "task": "ScalaClassification",
+  "metric_name": "accuracy",
+  "metric_value": 0.50294189453125,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

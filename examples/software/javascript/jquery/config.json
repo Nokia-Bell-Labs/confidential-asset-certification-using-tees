@@ -1,0 +1,13 @@
+{
+    "name": "javascript/jquery",
+    "inputs":
+    [
+        {
+            "upload_method": "url",
+            "asset_url": "https://code.jquery.com/jquery-3.7.1.js",
+            "sha256": "78a85aca2f0b110c29e0d2b137e09f0a1fb7a8e554b499f740d6744dc8962cfe",
+            "asset_id": "javascript/jquery"
+        }
+    ],
+    "code_folder": "code/"
+}

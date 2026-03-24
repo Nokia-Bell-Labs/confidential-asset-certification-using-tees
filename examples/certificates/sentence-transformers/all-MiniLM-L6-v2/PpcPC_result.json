@@ -1,0 +1,6 @@
+{
+  "task": "PpcPC",
+  "metric_name": "max_ap",
+  "metric_value": 0.698808055469613,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

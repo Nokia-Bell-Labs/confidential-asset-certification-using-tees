@@ -1,0 +1,7 @@
+datasets==3.3.2
+fastparquet==2024.11.0
+pandas==2.2.3
+pyarrow==19.0.0
+numpy==2.2.3
+ExifRead==3.3.2
+pillow==11.3.0

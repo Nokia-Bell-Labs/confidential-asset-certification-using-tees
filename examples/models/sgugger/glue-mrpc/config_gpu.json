@@ -1,0 +1,23 @@
+{
+    "name": "sgugger/glue-mrpc",
+    "inputs":
+    [
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "nyu-mll/glue",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["mrpc"]
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "model",
+            "asset_id": "sgugger/glue-mrpc"
+        },
+        {
+            "upload_method": "direct",
+            "input_folder": "inputs/"
+        }
+    ],
+    "code_folder": "code/gpu/"
+}

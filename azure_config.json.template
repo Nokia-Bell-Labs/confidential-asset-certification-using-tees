@@ -1,0 +1,12 @@
+{
+    "cloud_provider": "azure",
+    "subscription_id": "",
+    "managed_identity_client_id": "",
+    "resource_group_name": "",
+    "location": "westeurope",
+    "vnet_name": "",
+    "subnet_name": "default",
+    "prefix": "",
+    "vm_username": "duet",
+    "vm_image": "Canonical:ubuntu-24_04-lts:cvm:latest"
+}

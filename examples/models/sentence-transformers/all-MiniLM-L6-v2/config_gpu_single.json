@@ -1,0 +1,23 @@
+{
+    "name": "sentence-transformers/all-MiniLM-L6-v2",
+    "inputs":
+    [
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "mteb/toxic_conversations_50k",
+            "token_path": "../../../dev_test_docker/hf_token",
+            "configs": ["default"]
+        },
+        {
+            "upload_method": "hf_url",
+            "asset_type": "model",
+            "asset_id": "sentence-transformers/all-MiniLM-L6-v2"
+        },
+        {
+            "upload_method": "direct",
+            "input_folder": "inputs/"
+        }
+    ],
+    "code_folder": "code/gpu/"
+}

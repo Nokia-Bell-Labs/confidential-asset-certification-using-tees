@@ -1,0 +1,7 @@
+{
+    "name": "ros-realtime/linux-real-time-kernel-builder",
+    "inputs":
+    [
+    ],
+    "code_folder": "code/"
+}

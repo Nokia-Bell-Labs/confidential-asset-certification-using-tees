@@ -1,0 +1,6 @@
+{
+  "task": "ToxicConversationsClassification",
+  "metric_name": "accuracy",
+  "metric_value": 0.620947265625,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

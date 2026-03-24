@@ -1,0 +1,6 @@
+{
+  "task": "STSBenchmark",
+  "metric_name": "cosine_spearman",
+  "metric_value": 0.8203246731235654,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2"
+}

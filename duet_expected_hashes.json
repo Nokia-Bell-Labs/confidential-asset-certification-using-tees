@@ -1,0 +1,14 @@
+{
+    "EXPECTED_DUET_ADMIN_MRENCLAVE": "9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8",
+    "EXPECTED_DUET_SERVICE_INFO": {
+        "service_code_hash": "b853d36744e9ca4b7105b25c5e3dd26d91c99f166bce1ed8264bbf77eaefe683",
+        "service_tools_hashes": {
+            "huggingface": "86e3b11ab5475b83ada1f34cae1089aff14eb236e3814fbb42228d517a5c8bb9",
+            "build_tools.py": "95fb3d065af5c8c1b25e0cb22a76c193cafe57158c7eee85849bc1c94bf8f4ab"
+        },
+        "service_dependencies_hash": {
+            "cpu": "91aa92dc4e204aead93fd0797c991dab8fb8b198138e4ad3dc803e350a809d2b",
+            "gpu": "06e8368f5451b021c83ac2b41ceac201a5bcdba3193377d84a7c0b0ffffb1e29"
+        }
+    }
+}

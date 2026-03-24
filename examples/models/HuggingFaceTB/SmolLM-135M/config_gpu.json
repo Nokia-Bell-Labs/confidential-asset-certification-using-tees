@@ -1,0 +1,22 @@
+{
+    "name": "HuggingFaceTB/SmolLM-135M",
+    "inputs":
+    [
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "dataset",
+            "asset_id": "Idavidrein/gpqa",
+            "token_path": "../../../dev_test_docker/hf_token"
+        },
+        {
+            "upload_method": "hf_cache",
+            "asset_type": "model",
+            "asset_id": "HuggingFaceTB/SmolLM-135M"
+        },
+        {
+            "upload_method": "direct",
+            "input_folder": "inputs/"
+        }
+    ],
+    "code_folder": "code/gpu/"
+}

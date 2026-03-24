@@ -1,0 +1,5 @@
+HF_HOME=/tmp/inputs/HF_CACHE
+HF_HUB_OFFLINE=TRUE
+MODEL_ID=HuggingFaceTB/SmolLM-135M
+DATASET_IDS=Idavidrein/gpqa
+TASKS=gpqa

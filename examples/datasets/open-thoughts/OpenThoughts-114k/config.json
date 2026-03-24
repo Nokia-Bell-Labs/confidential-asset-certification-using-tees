@@ -1,0 +1,12 @@
+{
+    "name": "open-thoughts/OpenThoughts-114k",
+    "inputs":
+    [
+        {
+            "upload_method": "hf_url",
+            "asset_type": "dataset",
+            "asset_id": "open-thoughts/OpenThoughts-114k"
+        }
+    ],
+    "code_folder": "../../code/tabular_info/"
+}

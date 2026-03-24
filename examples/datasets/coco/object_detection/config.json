@@ -1,0 +1,31 @@
+{
+    "name": "coco/2017",
+    "inputs":
+    [
+        {
+            "upload_method": "url",
+            "asset_url": "http://images.cocodataset.org/zips/val2017.zip",
+            "sha256": "4f7e2ccb2866ec5041993c9cf2a952bbed69647b115d0f74da7ce8f4bef82f05",
+            "asset_id": "coco/2017"
+        },
+        {
+            "upload_method": "url",
+            "asset_url": "https://raw.githubusercontent.com/pjreddie/darknet/refs/heads/master/cfg/yolov3.cfg",
+            "sha256": "22489ea38575dfa36c67a90048e8759576416a79d32dc11e15d2217777b9a953",
+            "asset_id": "coco/2017"
+        },
+        {
+            "upload_method": "url",
+            "asset_url": "https://raw.githubusercontent.com/pjreddie/darknet/refs/heads/master/data/coco.names",
+            "sha256": "634a1132eb33f8091d60f2c346ababe8b905ae08387037aed883953b7329af84",
+            "asset_id": "coco/2017"
+        },
+        {
+            "upload_method": "url",
+            "asset_url": "https://github.com/patrick013/Object-Detection---Yolov3/raw/refs/heads/master/model/yolov3.weights",
+            "sha256": "523e4e69e1d015393a1b0a441cef1d9c7659e3eb2d7e15f793f060a21b32f297",
+            "asset_id": "coco/2017"
+        }
+    ],
+    "code_folder": "code/"
+}

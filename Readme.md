@@ -28,6 +28,31 @@ These proofs can be seen as complementary and enhancements to existing efforts i
 
 The Asset Certification Service (CACTEE) can be deployed on Azure via the [deployment instructions](deployment.md).
 
+
+### Service Provider Workflow (Figure 1)
+
+![Service Provider Workflow](cert_service_deployment.jpg)
+
+This figure shows the high-level steps of deploying CACTEE as the service provider, detailed in the [deployment instructions for the service provider](deployment.md#service-provider-setup).
+
+### Asset Owner Workflow (Figure 2)
+
+![Asset Owner Workflow](cert_service_use.jpg)
+
+This figure shows the high-level steps of getting a confidential asset certified via CACTEE, detailed in the [certifications instructions for the asset owners](deployment.md#asset-owner-setup).
+
+### Certificate Content (Figure 3)
+
+![Certificate Content](certificate.jpg)
+
+This figure shows how the trust-of-chain for a property is established:
+The TEE quote of the controller embeds its public key. 
+The public key verifies the signature of the controller on the output.
+The output contains the service metadata and the service result.
+The service result's outputs describe the property in question.
+In addition, the geolocation in the service metadata and the energy usage in the service result
+represent generic ephemeral properties captured by CACTEE.
+
 ## Repo Structure
 
 Please refer to the comments in the respective folders and scripts.

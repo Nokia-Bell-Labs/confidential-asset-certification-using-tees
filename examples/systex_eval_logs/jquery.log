@@ -1,0 +1,165 @@
+[2026-03-23 10:35:26,133] [INFO] examples/software/javascript/jquery/
+{'name': 'javascript/jquery', 'inputs': [{'upload_method': 'url', 'asset_url': 'https://code.jquery.com/jquery-3.7.1.js', 'sha256': '78a85aca2f0b110c29e0d2b137e09f0a1fb7a8e554b499f740d6744dc8962cfe', 'asset_id': 'javascript/jquery'}], 'code_folder': 'code/'}
+[2026-03-23 10:35:26,133] [INFO] Setting up duet controller interaction...
+[2026-03-23 10:35:26,133] [INFO] Obtaining and verifying the state of the duet admin...
+Expecting MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Found MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Valid SGX controller: True
+[OK] Verified service info.
+[2026-03-23 10:35:26,421] [INFO] Creating a certification request for: javascript/jquery
+[2026-03-23 10:35:26,470] [INFO] Certification request: {
+    "request_cvm_id": "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad",
+    "request_id": "99cf8eba-244f-4a09-87dc-9e9d752e56e0",
+    "request_token": "d9e5fac7c84110ca8c0d3da1eb606306cc576377d72d30179ec8b9d1512381fc"
+}
+[2026-03-23 10:35:26,470] [INFO] jquery-3.7.1.js asset_url: https://code.jquery.com/jquery-3.7.1.js
+[2026-03-23 10:35:29,270] [INFO] -- Creating the computation code archive...
+[2026-03-23 10:35:29,270] [INFO] examples/software/javascript/jquery/code/
+['examples/software/javascript/jquery/code/Dockerfile']
+-- Archiving examples/software/javascript/jquery/code/ into buffer...
+examples/software/javascript/jquery/code/Dockerfile
+[2026-03-23 10:35:29,271] [INFO] -- Uploading the computation code archive...
+Property computation code hash: 18d6688bb78f1f8b642f44b4ee4138de7e0bc7475f77d20bc1af46c6b893da08
+[2026-03-23 10:35:32,074] [INFO] -- Preparing the computation...
+[2026-03-23 10:35:32,117] [INFO] -- Waiting until preparation finishes...
+[2026-03-23 10:35:32,159] [INFO] {'request_id': '99cf8eba-244f-4a09-87dc-9e9d752e56e0', 'status': 'INITIALIZING'}
+[2026-03-23 10:35:37,216] [INFO] {'request_id': '99cf8eba-244f-4a09-87dc-9e9d752e56e0', 'status': 'PREPARING_COMPUTING_HASHES'}
+[2026-03-23 10:35:42,262] [INFO] {'request_id': '99cf8eba-244f-4a09-87dc-9e9d752e56e0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:35:47,311] [INFO] {'request_id': '99cf8eba-244f-4a09-87dc-9e9d752e56e0', 'status': 'READY'}
+[2026-03-23 10:35:47,311] [INFO] -- Starting certification computation...
+[2026-03-23 10:35:47,356] [INFO] -- Waiting until computation finishes...
+[2026-03-23 10:35:47,401] [INFO] {'request_id': '99cf8eba-244f-4a09-87dc-9e9d752e56e0', 'status': 'RUNNING'}
+[2026-03-23 10:35:52,472] [INFO] {'log_lines': [], 'request_id': '99cf8eba-244f-4a09-87dc-9e9d752e56e0', 'status': 'FINISHED'}
+[2026-03-23 10:35:52,472] [INFO] -- Obtaining the certification result...
+{
+    "duet_admin_signature": "H09577fs7kp6QmBRHCPAp2b5pW0W7SX3ZpmtCbQif6EQ+OqClQJ871Mb6i2AXgFl4XcF9cV2mYo4o7Pu/p4q60K4is2dqbZVVtiimdtruxhSahSIVMozC0tss6Du4byLpALfZYfiY0IwqsLtFYAdqo8nDJotWbNby1mz7PRDUYSBodcdJkBP09QKjra2zp6hCVcnhiVTOJ/EpRoz/n2CGNkp5ocAztwIa1ozTRKN9xVAYvo71ErEGBr5vRkgic9rMjJLIS9LfkjtpuZVSc4WrfAeXBSSeyfe6EGTfZenRTfaI+EfaHm0l29BKyQD7h0sg4DRRmWkftX05AEMGWRO3qns9aCuuT3fVAWVcQPSYv7DnBL0RJf4WfIpTxhgn/CQefrHd/q0rbQRhBTdR+UqNGRMV8DxWkuMtCui/KYoH1lIAG9K9jGAIQA0ME5NKjh+IMYwLxr6FlkUv405Ddz3afV9nXzaOEtb1PSvvbVU0eQCgevWH/DGPhrrZXJXU0V8g+3Ze4FedjsaO6KIGMCnJC2WRqTocTj3IUHmDmufy7410IdM0/Vo5+nm3x9KRTctGYkmGJZTCMYiFrRSY41xRh2DeBOZ119WAkcNTJDN1yzOG0aUow50eUFWrNaNieh9nR/qzX78KKY3Ak2rcyinWcwRuBFewbND1SCFQxCTS3I=",
+    "duet_service_result": {
+        "service_info": {
+            "service_code_hash": "b853d36744e9ca4b7105b25c5e3dd26d91c99f166bce1ed8264bbf77eaefe683",
+            "service_dependencies_hash": "06e8368f5451b021c83ac2b41ceac201a5bcdba3193377d84a7c0b0ffffb1e29",
+            "service_location": {
+                "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad": {
+                    "cloud_provider_metadata_result": {
+                        "azEnvironment": "AzurePublicCloud",
+                        "location": "westeurope"
+                    },
+                    "geoip_api_lookup_result": {
+                        "http://ip-api.com/json/": {
+                            "city": "Amsterdam",
+                            "country": "Netherlands",
+                            "countryCode": "NL",
+                            "lat": 52.3667,
+                            "lon": 4.9
+                        },
+                        "https://api.ipwho.org/ip/": {},
+                        "https://apip.cc/json": {
+                            "City": "Amsterdam",
+                            "CountryCode": "NL",
+                            "CountryName": "The Netherlands",
+                            "Latitude": "52.3759",
+                            "Longitude": "4.8975"
+                        },
+                        "https://free.freeipapi.com/api/json/": {
+                            "cityName": "Amsterdam",
+                            "countryCode": "NL",
+                            "countryName": "The Netherlands",
+                            "latitude": 52.3676,
+                            "longitude": 4.90414
+                        },
+                        "https://geoapi.info/api/geo": {},
+                        "https://ipinfo.io/": {
+                            "city": "Amsterdam",
+                            "country": "NL",
+                            "loc": "52.3740,4.8897"
+                        },
+                        "https://reallyfreegeoip.org/json/": {
+                            "city": "Amsterdam",
+                            "country_code": "NL",
+                            "country_name": "The Netherlands",
+                            "latitude": 52.3759,
+                            "longitude": 4.8975
+                        }
+                    },
+                    "rtt_based_estimation_result": {
+                        "closest_areas_rtt_ms": {
+                            "Alphen Aan Den Rijn, NL": 3.077,
+                            "Amsterdam, NL": 0.924,
+                            "Arnhem, NL": 4.558,
+                            "Capelle Aan Den Ijssel, NL": 3.461,
+                            "Delft, NL": 2.712,
+                            "Dronten, NL": 2.116,
+                            "Duesseldorf, DE": 4.095,
+                            "Dusseldorf, DE": 4.006,
+                            "Ede, NL": 2.471,
+                            "Haarlem, NL": 1.609,
+                            "Harderwijk, NL": 3.516,
+                            "Hoofddorp, NL": 1.391,
+                            "Meppel, NL": 3.54,
+                            "Rotterdam, NL": 2.057,
+                            "Schiphol Rijk, NL": 1.834,
+                            "Steenbergen, NL": 5.167,
+                            "The Hague, NL": 2.77,
+                            "Utrecht, NL": 2.173,
+                            "Veendam, NL": 4.378,
+                            "Zaventem, BE": 4.891
+                        },
+                        "estimated_coordinates": {
+                            "latitude": 52.22671871201438,
+                            "longitude": 4.9838660105135135
+                        },
+                        "estimated_possible_countries": {
+                            "BE": 0.010135232050181674,
+                            "DE": 0.029566437866833068,
+                            "NL": 0.9602983300829852
+                        },
+                        "reverse_geocode_lookup": {
+                            "https://api.bigdatacloud.net/data/reverse-geocode-client": {
+                                "city": "Gemeente De Ronde Venen",
+                                "countryCode": "NL",
+                                "countryName": "Netherlands (Kingdom of the)"
+                            }
+                        }
+                    },
+                    "service_owner_config_result": "westeurope"
+                }
+            },
+            "service_tools_hashes": {
+                "build_tools.py": "95fb3d065af5c8c1b25e0cb22a76c193cafe57158c7eee85849bc1c94bf8f4ab",
+                "huggingface": "86e3b11ab5475b83ada1f34cae1089aff14eb236e3814fbb42228d517a5c8bb9"
+            }
+        },
+        "service_result": {
+            "certificates": {},
+            "hashes": {
+                "code": {
+                    "code.tar": "18d6688bb78f1f8b642f44b4ee4138de7e0bc7475f77d20bc1af46c6b893da08"
+                },
+                "code_build_args": {},
+                "inputs": {
+                    "javascript/jquery/jquery-3.7.1.js": "78a85aca2f0b110c29e0d2b137e09f0a1fb7a8e554b499f740d6744dc8962cfe"
+                },
+                "outputs": {
+                    "jquery-3.7.1.min.js": "ed74db6cb6e37acbbe5e54b2192774c4337f3e39f5c8fcd826819aa37b0b05d4",
+                    "jquery-3.7.1.min.js.map": "9a760ac7582ff9843fc1568712490323e833b7a560f1bc6b3913a793b42be814"
+                }
+            },
+            "power_usage": {
+                "codecarbon": {
+                    "01_uploads": 2.0697872309221782e-05,
+                    "02_preparing_downloading_files": 1.040469717888558e-05,
+                    "03_preparing_computing_hashes": 1.0360306600822209e-05,
+                    "04_preparing_building_container_image": 8.025832760103512e-05,
+                    "05_running": 4.3258032020619275e-05,
+                    "99_total_power_usage_KWh": 0.00016497923571058397
+                }
+            },
+            "timestamp": 1774262152.4904819
+        }
+    }
+}
+[2026-03-23 10:35:52,506] [INFO] -- Storing the asset certificate...
+[2026-03-23 10:35:52,507] [INFO] -- Obtaining the computation outputs referred in the asset certificate...
+[2026-03-23 10:35:52,507] [INFO] --- Downloading and storing: jquery-3.7.1.min.js
+[2026-03-23 10:35:52,538] [INFO] --- Downloading and storing: jquery-3.7.1.min.js.map
+[2026-03-23 10:35:52,564] [INFO] ==================================================
+Total time (s): 26.431318759918213

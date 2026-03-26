@@ -1,0 +1,195 @@
+[2026-03-24 07:10:52,960] [INFO] examples/datasets/Open-Orca/OpenOrca/
+{'name': 'Open-Orca/OpenOrca', 'inputs': [{'upload_method': 'hf_url', 'asset_type': 'dataset', 'asset_id': 'Open-Orca/OpenOrca', 'input_filter_filename': 'hf_config_filter.txt'}], 'code_folder': 'code/'}
+[2026-03-24 07:10:52,960] [INFO] Setting up duet controller interaction...
+[2026-03-24 07:10:52,960] [INFO] Obtaining and verifying the state of the duet admin...
+Expecting MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Found MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Valid SGX controller: True
+[OK] Verified service info.
+[2026-03-24 07:10:53,230] [INFO] Creating a certification request for: Open-Orca/OpenOrca
+[2026-03-24 07:10:53,280] [INFO] Certification request: {
+    "request_cvm_id": "6a5bc65b74806a496eba4440af373eca86cf8ee0be363256a2a9820714288f8f",
+    "request_id": "b6591b6c-be02-4a32-b2c0-eb40539ecea0",
+    "request_token": "ebf2751a61867f32ccb76a1c6d9d527802279bb7322bd7fd339da6cb33b5393f"
+}
+-- Using prefix filters: [
+    "3_5M"
+]
+{'rfilename': '3_5M-GPT3_5-Augmented.parquet', 'sha256': '51a83b5ee1eef9640da912797276fd2ba3e7c7d44c36567ad6185862d446a8e4', 'asset_url': 'https://huggingface.co/datasets/Open-Orca/OpenOrca/resolve/main/3_5M-GPT3_5-Augmented.parquet'} 1 1 1.0
+[2026-03-24 07:10:53,481] [INFO] 3_5M-GPT3_5-Augmented.parquet asset_url: https://huggingface.co/datasets/Open-Orca/OpenOrca/resolve/main/3_5M-GPT3_5-Augmented.parquet
+[2026-03-24 07:10:56,338] [INFO] -- Creating the computation code archive...
+[2026-03-24 07:10:56,338] [INFO] examples/datasets/Open-Orca/OpenOrca/code/
+['examples/datasets/Open-Orca/OpenOrca/code/Dockerfile', 'examples/datasets/Open-Orca/OpenOrca/code/compute_dataset_property.py', 'examples/datasets/Open-Orca/OpenOrca/code/libprop', 'examples/datasets/Open-Orca/OpenOrca/code/requirements.txt']
+-- Archiving examples/datasets/Open-Orca/OpenOrca/code/ into buffer...
+examples/datasets/Open-Orca/OpenOrca/code/Dockerfile
+examples/datasets/Open-Orca/OpenOrca/code/compute_dataset_property.py
+examples/datasets/Open-Orca/OpenOrca/code/libprop
+examples/datasets/Open-Orca/OpenOrca/code/requirements.txt
+[2026-03-24 07:10:56,340] [INFO] -- Uploading the computation code archive...
+Property computation code hash: d2ed02b84c688c4572a17a7797fafbfeed278ef37913034ae148b06847e434b7
+[2026-03-24 07:10:59,160] [INFO] -- Preparing the computation...
+[2026-03-24 07:10:59,204] [INFO] -- Waiting until preparation finishes...
+[2026-03-24 07:10:59,246] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'INITIALIZING'}
+[2026-03-24 07:11:04,296] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_DOWNLOADING_FILES'}
+[2026-03-24 07:11:09,344] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_MOVING_FILES'}
+[2026-03-24 07:11:14,394] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_COMPUTING_HASHES'}
+[2026-03-24 07:11:19,443] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:11:24,493] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:11:29,540] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:11:34,590] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:11:40,971] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:11:46,020] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:11:51,070] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:11:56,118] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:01,166] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:06,218] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:11,266] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:16,315] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:21,362] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:26,414] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:31,464] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:36,516] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:41,564] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:46,612] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:51,665] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:12:56,716] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:13:01,764] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:13:06,813] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:13:11,863] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'READY'}
+[2026-03-24 07:13:11,863] [INFO] -- Starting certification computation...
+[2026-03-24 07:13:11,906] [INFO] -- Waiting until computation finishes...
+[2026-03-24 07:13:11,950] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'RUNNING'}
+[2026-03-24 07:13:17,002] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'RUNNING'}
+[2026-03-24 07:13:22,051] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'RUNNING'}
+[2026-03-24 07:13:27,103] [INFO] {'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'RUNNING'}
+[2026-03-24 07:13:32,427] [INFO] {'log_lines': ['parquet', '/tmp/inputs **/*.parquet', '/tmp/inputs/Open-Orca/OpenOrca/3_5M-GPT3_5-Augmented.parquet', '{', '    "column_info": {', '        "system_prompt": {', '            "cell_count_per_unique": {', '                "": 389015,', '                "Explain how you used the definition to come up with the answer.": 22577,', '                "Given a definition of a task and a sample input, break the definition into small parts.\\nEach of those parts will have some instruction. Explain their meaning by showing an example that meets the criteria in the instruction. Use the following format:\\nPart  # : a key part of the definition.\\nUsage: Sample response that meets the criteria from the key part. Explain why you think it meets the criteria.": 23288,', '                "User will you give you a task with some instruction. Your job is follow the instructions as faithfully as you can. While answering think step-by-step and justify your answer.": 22764,', '                "You are a helpful assistant, who always provide explanation. Think like you are answering to a five year old.": 360739,', '                "You are a teacher. Given a task, you explain in simple steps what the task is asking, any guidelines it provides and how to use those guidelines to find the answer.": 23153,', '                "You are an AI assistant that follows instruction extremely well. Help as much as you can.": 385552,', '                "You are an AI assistant that helps people find information.": 22299,', '                "You are an AI assistant that helps people find information. Provide a detailed answer so user don\\u2019t need to search outside to understand the answer.": 22685,', '                "You are an AI assistant that helps people find information. User will you give you a question. Your task is to answer as faithfully as you can. While answering think step-bystep and justify your answer.": 22539,', '                "You are an AI assistant, who knows every language and how to translate one language to another. Given a task, you explain in simple steps what the task is asking, any guidelines that it provides. You solve the task and show how you used the guidelines to solve the task.": 22587,', '                "You are an AI assistant. Provide a detailed answer so user don\\u2019t need to search outside to understand the answer.": 393132,', '                "You are an AI assistant. User will you give you a task. Your goal is to complete the task as faithfully as you can. While performing the task think step-by-step and justify your steps.": 730919,', '                "You are an AI assistant. You should describe the task and explain your answer. While answering a multiple choice question, first output the correct answer(s). Then explain why other answers are wrong. You might need to use additional knowledge to answer the question.": 31275,', '                "You are an AI assistant. You will be given a task. You must generate a detailed and long answer.": 735231,', '                "You should describe the task and explain your answer. While answering a multiple choice question, first output the correct answer(s). Then explain why other answers are wrong. Think like you are answering to a five year old.": 31272', '            },', '            "cell_unique_count": 16', '        }', '    },', '    "filenames": [', '        "Open-Orca/OpenOrca/3_5M-GPT3_5-Augmented.parquet"', '    ],', '    "number_of_items": 3239027,', '    "timestamp": 1774336410.7357302', '}'], 'request_id': 'b6591b6c-be02-4a32-b2c0-eb40539ecea0', 'status': 'FINISHED'}
+[2026-03-24 07:13:32,427] [INFO] -- Obtaining the certification result...
+{
+    "duet_admin_signature": "Z5cP+WRG1fjEwGtUbNiTqUMRaOpED/WQ6AxdufnR7DmtgnAJjeMzCzFumMGX9E3lOH3+LHNFnsJs1OOoU5uUtKtwyPO8EamGyT/8W4iuZfUWDDoAEXZh7/QhnmnaljPRqu89U59obf3aGielZDAvvUYFMt/ZhawUKQpQxI/4oJ+pOpsBO945q8EfatVFSJf4DQyPwiuGSSyCq1ghqiOh3sTV9eg98VQzVZWbH5oOvCnQ4OFvJfUU1P/B5ifl9Y/GgyGiUuXYAcy9iAIeSlsDmqF3LNcRJzrxiB+FePM/mnZMbVT3u0mE2oNzihqC+Od25+1cBaMWvv9+gOLFEEtLY94GnUY3rpaSZnPc5kLv4kGgoLeaMtTbkHiAOEv604MV8EK8+isEcYbxkV/vRJpzN+AxYFuWVDVg7HNKhQwV3QCDqpulFsJJp+9Rh7SEEJh2b2uPpezDyHevDD6SbbZMb/o6iOuyb11Bj4mVDmrx2NGTODk9lvzWjqx5sjhhjBPvXDf7nDzoyoQd+6CCydK/dvQ/5hzrCC9ibCwfw2hTT+9Bax2k2JgEbnOd75RH8tff15TTfLBkWFBkxZkUlqKQV4fLz1indYpcDS3wD3+sEmY/lcp+PSRasXxjSUhjxzTIrMadzxZnnQJ3kJPqy/W/UZVQ6MNwq6nzPAR5D7AKbWw=",
+    "duet_service_result": {
+        "service_info": {
+            "service_code_hash": "b853d36744e9ca4b7105b25c5e3dd26d91c99f166bce1ed8264bbf77eaefe683",
+            "service_dependencies_hash": "06e8368f5451b021c83ac2b41ceac201a5bcdba3193377d84a7c0b0ffffb1e29",
+            "service_location": {
+                "6a5bc65b74806a496eba4440af373eca86cf8ee0be363256a2a9820714288f8f": {
+                    "cloud_provider_metadata_result": {
+                        "azEnvironment": "AzurePublicCloud",
+                        "location": "westeurope"
+                    },
+                    "geoip_api_lookup_result": {
+                        "http://ip-api.com/json/": {
+                            "city": "Amsterdam",
+                            "country": "Netherlands",
+                            "countryCode": "NL",
+                            "lat": 52.3667,
+                            "lon": 4.9
+                        },
+                        "https://api.ipwho.org/ip/": {},
+                        "https://apip.cc/json": {
+                            "City": "Amsterdam",
+                            "CountryCode": "NL",
+                            "CountryName": "The Netherlands",
+                            "Latitude": "52.3759",
+                            "Longitude": "4.8975"
+                        },
+                        "https://free.freeipapi.com/api/json/": {
+                            "cityName": "Amsterdam",
+                            "countryCode": "NL",
+                            "countryName": "The Netherlands",
+                            "latitude": 52.3676,
+                            "longitude": 4.90414
+                        },
+                        "https://geoapi.info/api/geo": {},
+                        "https://ipinfo.io/": {
+                            "city": "Amsterdam",
+                            "country": "NL",
+                            "loc": "52.3740,4.8897"
+                        },
+                        "https://reallyfreegeoip.org/json/": {
+                            "city": "Amsterdam",
+                            "country_code": "NL",
+                            "country_name": "The Netherlands",
+                            "latitude": 52.3759,
+                            "longitude": 4.8975
+                        }
+                    },
+                    "rtt_based_estimation_result": {
+                        "closest_areas_rtt_ms": {
+                            "Alphen Aan Den Rijn, NL": 3.012,
+                            "Amsterdam, NL": 1.357,
+                            "Apeldoorn, NL": 2.493,
+                            "Arnhem, NL": 2.448,
+                            "Capelle Aan Den Ijssel, NL": 3.335,
+                            "Delft, NL": 2.58,
+                            "Dronten, NL": 2.706,
+                            "Duesseldorf, DE": 4.061,
+                            "Dusseldorf, DE": 3.752,
+                            "Dusseldorf, Germany, DE": 4.315,
+                            "Ede, NL": 2.026,
+                            "Haarlem, NL": 1.412,
+                            "Harderwijk, NL": 3.557,
+                            "Hoofddorp, NL": 1.643,
+                            "Meppel, NL": 3.42,
+                            "Rotterdam, NL": 2.346,
+                            "Schiphol Rijk, NL": 1.71,
+                            "The Hague, NL": 2.8,
+                            "Utrecht, NL": 2.32,
+                            "Veendam, NL": 4.284
+                        },
+                        "estimated_coordinates": {
+                            "latitude": 52.19807709304665,
+                            "longitude": 5.093570621205583
+                        },
+                        "estimated_possible_countries": {
+                            "DE": 0.04990276103047404,
+                            "NL": 0.950097238969526
+                        },
+                        "reverse_geocode_lookup": {
+                            "https://api.bigdatacloud.net/data/reverse-geocode-client": {
+                                "city": "Gemeente Wijdemeren",
+                                "countryCode": "NL",
+                                "countryName": "Netherlands (Kingdom of the)"
+                            }
+                        }
+                    },
+                    "service_owner_config_result": "westeurope"
+                }
+            },
+            "service_tools_hashes": {
+                "build_tools.py": "95fb3d065af5c8c1b25e0cb22a76c193cafe57158c7eee85849bc1c94bf8f4ab",
+                "huggingface": "86e3b11ab5475b83ada1f34cae1089aff14eb236e3814fbb42228d517a5c8bb9"
+            }
+        },
+        "service_result": {
+            "certificates": {},
+            "hashes": {
+                "code": {
+                    "code.tar": "d2ed02b84c688c4572a17a7797fafbfeed278ef37913034ae148b06847e434b7"
+                },
+                "code_build_args": {},
+                "inputs": {
+                    "Open-Orca/OpenOrca/3_5M-GPT3_5-Augmented.parquet": "51a83b5ee1eef9640da912797276fd2ba3e7c7d44c36567ad6185862d446a8e4"
+                },
+                "outputs": {
+                    "computation_result.json": "2b4485d0618ff76605ced142ca82139d5069d8cc7fa4e931b4a56ad3b37253b7"
+                }
+            },
+            "power_usage": {
+                "codecarbon": {
+                    "01_uploads": 1.9879997663332986e-05,
+                    "02_preparing_downloading_files": 0.0001302461717434628,
+                    "03_preparing_computing_hashes": 5.87694573610356e-05,
+                    "04_preparing_building_container_image": 0.002093987243846097,
+                    "05_running": 0.0003470320642232546,
+                    "99_total_power_usage_KWh": 0.0026499149348371827
+                }
+            },
+            "timestamp": 1774336412.4474354
+        }
+    }
+}
+[2026-03-24 07:13:32,464] [INFO] -- Storing the asset certificate...
+[2026-03-24 07:13:32,465] [INFO] -- Obtaining the computation outputs referred in the asset certificate...
+[2026-03-24 07:13:32,465] [INFO] --- Downloading and storing: computation_result.json
+[2026-03-24 07:13:32,486] [INFO] ==================================================
+Total time (s): 159.52589178085327

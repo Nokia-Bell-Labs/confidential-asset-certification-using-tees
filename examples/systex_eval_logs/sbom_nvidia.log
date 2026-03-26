@@ -1,0 +1,251 @@
+[2026-03-23 11:11:38,090] [INFO] examples/software/sbom/verifiable_sbom_generation/
+{'name': 'sbom/verifiable_sbom_generation', 'inputs': [], 'code_build_args': {'IMAGE_NAME': 'nvidia/cuda:13.1.1-cudnn-devel-ubuntu24.04', 'TRIVY_VERSION': 'v0.69.3'}, 'code_folder': 'code/'}
+[2026-03-23 11:11:38,090] [INFO] Setting up duet controller interaction...
+[2026-03-23 11:11:38,090] [INFO] Obtaining and verifying the state of the duet admin...
+Expecting MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Found MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Valid SGX controller: True
+[OK] Verified service info.
+[2026-03-23 11:11:38,383] [INFO] Creating a certification request for: sbom/verifiable_sbom_generation
+[2026-03-23 11:11:38,431] [INFO] Certification request: {
+    "request_cvm_id": "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad",
+    "request_id": "c993fe5c-1da4-41c5-a787-c53aaadbb81b",
+    "request_token": "305c9afccc5a9d775bd3b53f627d304704b93505020b3b18c430f3f3a6c186b9"
+}
+[2026-03-23 11:11:38,431] [INFO] -- Creating the computation code archive...
+[2026-03-23 11:11:38,431] [INFO] examples/software/sbom/verifiable_sbom_generation/code/
+['examples/software/sbom/verifiable_sbom_generation/code/Dockerfile', 'examples/software/sbom/verifiable_sbom_generation/code/copy-files.sh', 'examples/software/sbom/verifiable_sbom_generation/code/run.sh']
+-- Archiving examples/software/sbom/verifiable_sbom_generation/code/ into buffer...
+examples/software/sbom/verifiable_sbom_generation/code/Dockerfile
+examples/software/sbom/verifiable_sbom_generation/code/copy-files.sh
+examples/software/sbom/verifiable_sbom_generation/code/run.sh
+[2026-03-23 11:11:38,432] [INFO] -- Uploading the computation code archive...
+Property computation code hash: 5f3ee2d0bff9865fbeb6174493722961a8c20afacb3ced895182bdfb3d6b3fd6
+[2026-03-23 11:11:41,232] [INFO] -- Preparing the computation...
+[2026-03-23 11:11:41,275] [INFO] -- Waiting until preparation finishes...
+[2026-03-23 11:11:41,317] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'INITIALIZING'}
+[2026-03-23 11:11:46,365] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_COMPUTING_HASHES'}
+[2026-03-23 11:11:51,414] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:11:56,463] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:01,512] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:06,562] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:11,612] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:16,661] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:21,707] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:26,755] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:31,803] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:36,851] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:41,903] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:46,953] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:51,999] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:12:57,046] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:02,095] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:07,835] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:12,885] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:17,935] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:22,984] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:28,034] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:33,082] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:38,127] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:47,773] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:52,821] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:13:57,869] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:14:02,915] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:14:07,963] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:14:13,012] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:14:18,063] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:14:23,112] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:14:35,355] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:14:40,403] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:14:45,450] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:14:50,496] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:14:55,542] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:00,591] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:05,637] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:10,687] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:15,735] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:20,785] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:25,832] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:30,880] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:35,925] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:40,973] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:46,021] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:51,070] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:15:56,119] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:01,167] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:06,215] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:11,260] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:16,308] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:21,357] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:26,406] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:31,451] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:36,502] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:41,551] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:46,602] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:16:51,653] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:17:02,074] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:17:09,343] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:17:14,392] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:17:19,440] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:17:24,488] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:17:29,536] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:17:45,437] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:17:50,487] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:17:55,533] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:00,583] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:05,632] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:10,676] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:15,719] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:20,765] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:25,815] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:30,862] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:35,910] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:40,959] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:46,004] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:51,050] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:18:56,097] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:19:01,145] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:19:06,193] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:19:11,241] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'READY'}
+[2026-03-23 11:19:11,241] [INFO] -- Starting certification computation...
+[2026-03-23 11:19:11,285] [INFO] -- Waiting until computation finishes...
+[2026-03-23 11:19:11,329] [INFO] {'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'RUNNING'}
+[2026-03-23 11:19:16,473] [INFO] {'log_lines': [], 'request_id': 'c993fe5c-1da4-41c5-a787-c53aaadbb81b', 'status': 'FINISHED'}
+[2026-03-23 11:19:16,473] [INFO] -- Obtaining the certification result...
+{
+    "duet_admin_signature": "p0oF81tGxIamqV3P89+HHuEPG29eaZoNDVnIryu4DUd3+Y64oY6B18CWTSXFrk8yRptzd9gZUPn1HtjlLbpiEWjEQzjo+ngiNQWMUlfhdFVP2FjtACCOG2ysexg271kuzKy7aWOfe9ZT84Gv4hM/llMgjCRjpiKj+w5oiPqPmqSLOqkW/7mD9UCjts1aAnfLmlS3vdwXhOrhB+4M2uuiS4BvPqe+3rBYV6vNXTnjQwFlp+xBa6HwaG7f+wKgwgOeK+bin6S0tFkrEapDaYfx2InIftWdP2BYV/V7/F53GCelxLJ8rNwKG6/C1qVarQKfoSlnTbIJA+ph6nqihTZ8ppO8cgoYRZLoAgFMVBw38Y/jUGUwH7ICfH7PR/TC0WRaHA2gR3csdiQk4OmhgYUqrlbASUP82XsVnCGkilFMemWYMC+6KNpnC5BYZH0AH0p7z2SwOfz8EHCymbqwgU6A2N5wTUkYfAiAeoYCZa1ndfe3hP5VJeVOx4ITSwkqBLO6iYKSygjk/hb4efSnPIfgHDU5OIhF8P1tR7HKd4oP8dEr8akg7ce4oxnccyuVu8C8ldk3QbEJ7y+FnOerhSxl0B0QhtkygI2l/rAXpnCLTt/m8V8PG57GdrUg3Umoe8Jgwq6HLUXvvRvZK/YeN4qdkCNZtlGGLRzbnBwXJSOjc5I=",
+    "duet_service_result": {
+        "service_info": {
+            "service_code_hash": "b853d36744e9ca4b7105b25c5e3dd26d91c99f166bce1ed8264bbf77eaefe683",
+            "service_dependencies_hash": "06e8368f5451b021c83ac2b41ceac201a5bcdba3193377d84a7c0b0ffffb1e29",
+            "service_location": {
+                "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad": {
+                    "cloud_provider_metadata_result": {
+                        "azEnvironment": "AzurePublicCloud",
+                        "location": "westeurope"
+                    },
+                    "geoip_api_lookup_result": {
+                        "http://ip-api.com/json/": {
+                            "city": "Amsterdam",
+                            "country": "Netherlands",
+                            "countryCode": "NL",
+                            "lat": 52.3667,
+                            "lon": 4.9
+                        },
+                        "https://api.ipwho.org/ip/": {},
+                        "https://apip.cc/json": {
+                            "City": "Amsterdam",
+                            "CountryCode": "NL",
+                            "CountryName": "The Netherlands",
+                            "Latitude": "52.3759",
+                            "Longitude": "4.8975"
+                        },
+                        "https://free.freeipapi.com/api/json/": {
+                            "cityName": "Amsterdam",
+                            "countryCode": "NL",
+                            "countryName": "The Netherlands",
+                            "latitude": 52.3676,
+                            "longitude": 4.90414
+                        },
+                        "https://geoapi.info/api/geo": {},
+                        "https://ipinfo.io/": {
+                            "city": "Amsterdam",
+                            "country": "NL",
+                            "loc": "52.3740,4.8897"
+                        },
+                        "https://reallyfreegeoip.org/json/": {
+                            "city": "Amsterdam",
+                            "country_code": "NL",
+                            "country_name": "The Netherlands",
+                            "latitude": 52.3759,
+                            "longitude": 4.8975
+                        }
+                    },
+                    "rtt_based_estimation_result": {
+                        "closest_areas_rtt_ms": {
+                            "Alphen Aan Den Rijn, NL": 3.077,
+                            "Amsterdam, NL": 0.924,
+                            "Arnhem, NL": 4.558,
+                            "Capelle Aan Den Ijssel, NL": 3.461,
+                            "Delft, NL": 2.712,
+                            "Dronten, NL": 2.116,
+                            "Duesseldorf, DE": 4.095,
+                            "Dusseldorf, DE": 4.006,
+                            "Ede, NL": 2.471,
+                            "Haarlem, NL": 1.609,
+                            "Harderwijk, NL": 3.516,
+                            "Hoofddorp, NL": 1.391,
+                            "Meppel, NL": 3.54,
+                            "Rotterdam, NL": 2.057,
+                            "Schiphol Rijk, NL": 1.834,
+                            "Steenbergen, NL": 5.167,
+                            "The Hague, NL": 2.77,
+                            "Utrecht, NL": 2.173,
+                            "Veendam, NL": 4.378,
+                            "Zaventem, BE": 4.891
+                        },
+                        "estimated_coordinates": {
+                            "latitude": 52.22671871201438,
+                            "longitude": 4.9838660105135135
+                        },
+                        "estimated_possible_countries": {
+                            "BE": 0.010135232050181674,
+                            "DE": 0.029566437866833068,
+                            "NL": 0.9602983300829852
+                        },
+                        "reverse_geocode_lookup": {
+                            "https://api.bigdatacloud.net/data/reverse-geocode-client": {
+                                "city": "Gemeente De Ronde Venen",
+                                "countryCode": "NL",
+                                "countryName": "Netherlands (Kingdom of the)"
+                            }
+                        }
+                    },
+                    "service_owner_config_result": "westeurope"
+                }
+            },
+            "service_tools_hashes": {
+                "build_tools.py": "95fb3d065af5c8c1b25e0cb22a76c193cafe57158c7eee85849bc1c94bf8f4ab",
+                "huggingface": "86e3b11ab5475b83ada1f34cae1089aff14eb236e3814fbb42228d517a5c8bb9"
+            }
+        },
+        "service_result": {
+            "certificates": {},
+            "hashes": {
+                "code": {
+                    "code.tar": "5f3ee2d0bff9865fbeb6174493722961a8c20afacb3ced895182bdfb3d6b3fd6"
+                },
+                "code_build_args": {
+                    "IMAGE_NAME": "333e5c666fc293d1720e65809dcc995eafb37f61bc75fbd76e3fed8538870cc1",
+                    "TRIVY_VERSION": "6fef306928ba557381f8d02ee4ee2758863a247acf55cea4d1b7022ccd93fc3f"
+                },
+                "inputs": {},
+                "outputs": {
+                    "results_grype.cdx.json": "1316d3e7eacfd8b77663bd86c218c76a829110b9d81896852f9d5f949a22786e",
+                    "results_grype.json": "a821f4cc923a20c1eb0dbaddc04130765fd5c2cc21d4280882611237330f627f",
+                    "results_syft.spdx": "789cd7bbcb1ef28d8e039e6487ce9e0d59ebcc90adab62696b17abdf806689f7",
+                    "results_trivy.spdx": "d982aab1ddad249f19eb48614c5c17ae3e9a0bb8945949ae881e2b55365ffee7"
+                }
+            },
+            "power_usage": {
+                "codecarbon": {
+                    "01_uploads": 1.0353472737111671e-05,
+                    "02_preparing_downloading_files": 1.0351381066334728e-05,
+                    "03_preparing_computing_hashes": 1.0354035505109538e-05,
+                    "04_preparing_building_container_image": 0.008484128643316284,
+                    "05_running": 2.6842434859336787e-05,
+                    "99_total_power_usage_KWh": 0.008542029967484177
+                }
+            },
+            "timestamp": 1774264756.4915886
+        }
+    }
+}
+[2026-03-23 11:19:16,497] [INFO] -- Storing the asset certificate...
+[2026-03-23 11:19:16,498] [INFO] -- Obtaining the computation outputs referred in the asset certificate...
+[2026-03-23 11:19:16,498] [INFO] --- Downloading and storing: results_grype.cdx.json
+[2026-03-23 11:19:16,844] [INFO] --- Downloading and storing: results_grype.json
+[2026-03-23 11:19:17,131] [INFO] --- Downloading and storing: results_syft.spdx
+[2026-03-23 11:19:17,408] [INFO] --- Downloading and storing: results_trivy.spdx
+[2026-03-23 11:19:17,688] [INFO] ==================================================
+Total time (s): 459.5988121032715

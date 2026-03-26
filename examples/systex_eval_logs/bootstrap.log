@@ -1,0 +1,272 @@
+[2026-03-23 10:32:15,565] [INFO] examples/software/javascript/bootstrap/
+{'name': 'javascript/bootstrap', 'inputs': [], 'code_folder': 'code/'}
+[2026-03-23 10:32:15,565] [INFO] Setting up duet controller interaction...
+[2026-03-23 10:32:15,565] [INFO] Obtaining and verifying the state of the duet admin...
+Expecting MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Found MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Valid SGX controller: True
+[OK] Verified service info.
+[2026-03-23 10:32:15,854] [INFO] Creating a certification request for: javascript/bootstrap
+[2026-03-23 10:32:15,902] [INFO] Certification request: {
+    "request_cvm_id": "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad",
+    "request_id": "866457cb-d9ed-4eda-9671-d080137f04c7",
+    "request_token": "4d40d77aafc0b699cd8009faa3ab9c6d81b3906bcc859d14f9bd3cfc7fb1b2e4"
+}
+[2026-03-23 10:32:15,902] [INFO] -- Creating the computation code archive...
+[2026-03-23 10:32:15,902] [INFO] examples/software/javascript/bootstrap/code/
+['examples/software/javascript/bootstrap/code/Dockerfile', 'examples/software/javascript/bootstrap/code/copy_files.sh']
+-- Archiving examples/software/javascript/bootstrap/code/ into buffer...
+examples/software/javascript/bootstrap/code/Dockerfile
+examples/software/javascript/bootstrap/code/copy_files.sh
+[2026-03-23 10:32:15,903] [INFO] -- Uploading the computation code archive...
+Property computation code hash: 03012262c603827d40cf6d843ca5f148aa898131a00f69fb4a3e81a4e050e2b0
+[2026-03-23 10:32:18,768] [INFO] -- Preparing the computation...
+[2026-03-23 10:32:18,812] [INFO] -- Waiting until preparation finishes...
+[2026-03-23 10:32:18,854] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'INITIALIZING'}
+[2026-03-23 10:32:23,905] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_COMPUTING_HASHES'}
+[2026-03-23 10:32:28,953] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:32:34,003] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:32:39,051] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:32:44,100] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:32:49,147] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:32:54,197] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:32:59,245] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:04,293] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:09,342] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:15,265] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:20,314] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:25,363] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:30,413] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:35,471] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:40,514] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:45,563] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:50,616] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:33:55,663] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:34:00,710] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:34:05,757] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:34:10,805] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:34:15,853] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:34:20,902] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:34:25,949] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:34:30,998] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 10:34:36,047] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'READY'}
+[2026-03-23 10:34:36,047] [INFO] -- Starting certification computation...
+[2026-03-23 10:34:36,095] [INFO] -- Waiting until computation finishes...
+[2026-03-23 10:34:36,139] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'RUNNING'}
+[2026-03-23 10:34:41,190] [INFO] {'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'RUNNING'}
+[2026-03-23 10:34:46,283] [INFO] {'log_lines': ['', '> bootstrap@5.3.8 dist', '> npm-run-all --aggregate-output --parallel css js', '', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', '\x1b[36m', '\x1b[1m/tmp/bootstrap/bootstrap-5.3.8/js/index.esm.js\x1b[22m → \x1b[1mdist/js/bootstrap.esm.js\x1b[22m...\x1b[39m', '\x1b[36m', '\x1b[1m/tmp/bootstrap/bootstrap-5.3.8/js/index.umd.js\x1b[22m → \x1b[1mdist/js/bootstrap.bundle.js\x1b[22m...\x1b[39m', '\x1b[36m', '\x1b[1m/tmp/bootstrap/bootstrap-5.3.8/js/index.umd.js\x1b[22m → \x1b[1mdist/js/bootstrap.js\x1b[22m...\x1b[39m', 'Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:', '  npx update-browserslist-db@latest', '  Why you should do it regularly: https://github.com/browserslist/update-db#readme', 'Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:', '  npx update-browserslist-db@latest', '  Why you should do it regularly: https://github.com/browserslist/update-db#readme', 'Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:', '  npx update-browserslist-db@latest', '  Why you should do it regularly: https://github.com/browserslist/update-db#readme', 'Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:', '  npx update-browserslist-db@latest', '  Why you should do it regularly: https://github.com/browserslist/update-db#readme', '\x1b[32mcreated \x1b[1mdist/js/bootstrap.js\x1b[22m in \x1b[1m810ms\x1b[22m\x1b[39m', '\x1b[32mcreated \x1b[1mdist/js/bootstrap.esm.js\x1b[22m in \x1b[1m822ms\x1b[22m\x1b[39m', '\x1b[32mcreated \x1b[1mdist/js/bootstrap.bundle.js\x1b[22m in \x1b[1m1.1s\x1b[22m\x1b[39m', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', '(node:379) [DEP0190] DeprecationWarning: Passing args to a child process with shell option true can lead to security vulnerabilities, as the arguments are not escaped, only concatenated.', '(Use `node --trace-deprecation ...` to show where the warning was created)', 'Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:', '  npx update-browserslist-db@latest', '  Why you should do it regularly: https://github.com/browserslist/update-db#readme', 'Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:', '  npx update-browserslist-db@latest', '  Why you should do it regularly: https://github.com/browserslist/update-db#readme', 'Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:', '  npx update-browserslist-db@latest', '  Why you should do it regularly: https://github.com/browserslist/update-db#readme', '', '> bootstrap@5.3.8 js', '> npm-run-all js-compile js-minify', '', '', '> bootstrap@5.3.8 js-compile', '> npm-run-all --aggregate-output --parallel js-compile-*', '', '', '> bootstrap@5.3.8 js-compile-standalone-esm', '> rollup --environment ESM:true,BUNDLE:false --config build/rollup.config.mjs --sourcemap', '', '', '> bootstrap@5.3.8 js-compile-standalone', '> rollup --environment BUNDLE:false --config build/rollup.config.mjs --sourcemap', '', '', '> bootstrap@5.3.8 js-compile-plugins', '> node build/build-plugins.mjs', '', 'Building individual plugins...', 'Built Button', 'Built Alert', 'Built BaseComponent', 'Built Collapse', 'Built Modal', 'Built Offcanvas', 'Built Popover', 'Built Toast', 'Built Dropdown', 'Built Tab', 'Built Carousel', 'Built Scrollspy', 'Built Data', 'Built Tooltip', 'Built SelectorEngine', 'Built Focustrap', 'Built EventHandler', 'Built Manipulator', 'Built Backdrop', 'Built ComponentFunctions', 'Built Config', 'Built Sanitizer', 'Built Index', 'Built Swipe', 'Built TemplateFactory', 'Built Scrollbar', '[build-plugins.mjs] finished: 995.765ms', '', '> bootstrap@5.3.8 js-compile-bundle', '> rollup --environment BUNDLE:true --config build/rollup.config.mjs --sourcemap', '', '', '> bootstrap@5.3.8 js-minify', '> npm-run-all --aggregate-output --parallel js-minify-*', '', '', '> bootstrap@5.3.8 js-minify-standalone-esm', '> terser --compress passes=2 --mangle --comments "/^!/" --source-map "content=dist/js/bootstrap.esm.js.map,includeSources,url=bootstrap.esm.min.js.map" --output dist/js/bootstrap.esm.min.js dist/js/bootstrap.esm.js', '', '', '> bootstrap@5.3.8 js-minify-standalone', '> terser --compress passes=2 --mangle --comments "/^!/" --source-map "content=dist/js/bootstrap.js.map,includeSources,url=bootstrap.min.js.map" --output dist/js/bootstrap.min.js dist/js/bootstrap.js', '', '', '> bootstrap@5.3.8 js-minify-bundle', '> terser --compress passes=2 --mangle --comments "/^!/" --source-map "content=dist/js/bootstrap.bundle.js.map,includeSources,url=bootstrap.bundle.min.js.map" --output dist/js/bootstrap.bundle.min.js dist/js/bootstrap.bundle.js', '', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'Browserslist: browsers data (caniuse-lite) is 7 months old. Please run:', '  npx update-browserslist-db@latest', '  Why you should do it regularly: https://github.com/browserslist/update-db#readme', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', 'npm warn Unknown cli config "version_short" (bootstrap:version_short). This will stop working in the next major version of npm.', 'npm warn Unknown env config "version-short" (bootstrap:version-short). This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.', '', '> bootstrap@5.3.8 css', '> npm-run-all css-compile css-prefix css-rtl css-minify', '', '', '> bootstrap@5.3.8 css-compile', '> sass --style expanded --source-map --embed-sources --no-error-css scss/:dist/css/', '', '', '> bootstrap@5.3.8 css-prefix', '> npm-run-all --aggregate-output --parallel css-prefix-*', '', '', '> bootstrap@5.3.8 css-prefix-examples-rtl', '> cross-env-shell NODE_ENV=RTL postcss --config build/postcss.config.mjs --dir "site/src/assets/examples/" --ext ".rtl.css" --base "site/src/assets/examples/" "site/src/assets/examples/{blog,carousel,dashboard,cheatsheet}/*.css" "!site/src/assets/examples/{blog,carousel,dashboard,cheatsheet}/*.rtl.css"', '', '', '> bootstrap@5.3.8 css-prefix-examples', '> postcss --config build/postcss.config.mjs --replace "site/src/assets/examples/**/*.css"', '', '', '> bootstrap@5.3.8 css-prefix-main', '> postcss --config build/postcss.config.mjs --replace "dist/css/*.css" "!dist/css/*.rtl*.css" "!dist/css/*.min.css"', '', '', '> bootstrap@5.3.8 css-rtl', '> cross-env NODE_ENV=RTL postcss --config build/postcss.config.mjs --dir "dist/css" --ext ".rtl.css" "dist/css/*.css" "!dist/css/*.min.css" "!dist/css/*.rtl.css"', '', '', '> bootstrap@5.3.8 css-minify', '> npm-run-all --aggregate-output --parallel css-minify-*', '', '', '> bootstrap@5.3.8 css-minify-rtl', '> cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/css/ --batch --batch-suffix ".min" "dist/css/*rtl.css" "!dist/css/*.min.css"', '', '', '> bootstrap@5.3.8 css-minify-main', '> cleancss -O1 --format breakWith=lf --with-rebase --source-map --source-map-inline-sources --output dist/css/ --batch --batch-suffix ".min" "dist/css/*.css" "!dist/css/*.min.css" "!dist/css/*rtl*.css"', ''], 'request_id': '866457cb-d9ed-4eda-9671-d080137f04c7', 'status': 'FINISHED'}
+[2026-03-23 10:34:46,283] [INFO] -- Obtaining the certification result...
+{
+    "duet_admin_signature": "mi1UTZhbaTOdih4nbflhlp7Dz9+qeDRWGOLkD4PMlGrugHyXqX62OU0TqKTIE99Q7QDaoN2AGodDL3cN5qVgRjrA1EeDFjaxzoSh3BjZjktXU60ebHl/jIkh0CQlC/mr9yIlxBZQDddD8sKBnSJBUfsO6Kf2mscYHT1k8kiOjXrnUP54JF4bBNnFysz8HeunntwZWaDFgnBfzAD3eowW61L+dmFiCCba8ru6vsPAdwfcb45jk124iYnIu6sV/E1ydqUAX0A3ho4tPIWtw98/bFxOGXZ1swl+WrlGgSKnvkz7PlIsz024lKt4ReUXIml6OGGu2rH+5XsvFO06BE4ejYOP/CJTvOBaePAsXoYhS0oxMerkDcnPdWrVmV6QUzPBqYJDXSXTwiAKvNGQG5FOqmoN69bacJz7tdfv9kOnzJ1jc+XrgpXZ4USiMaCYabc7+E9URDIieQmdUbu83/r2rTw15iJOsFFv49oiTYCm1y1FmiemMA8vo5gr+NLDKjjEu6Jn13dWYcA1s3Me/cje8roVt42QF3ghxVAh0TRWp5DATe3jI0ckd2Pd2rz8bdRQZlLWkRBF1J9EHHjIBh/u7icuW9fpgD9aCs+18tBNv8L94QyCUELyBIH27GJo0sQF1Fi+BYJL37JqvJuYBq9X34voWoeptZZkutMBoAc1g7M=",
+    "duet_service_result": {
+        "service_info": {
+            "service_code_hash": "b853d36744e9ca4b7105b25c5e3dd26d91c99f166bce1ed8264bbf77eaefe683",
+            "service_dependencies_hash": "06e8368f5451b021c83ac2b41ceac201a5bcdba3193377d84a7c0b0ffffb1e29",
+            "service_location": {
+                "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad": {
+                    "cloud_provider_metadata_result": {
+                        "azEnvironment": "AzurePublicCloud",
+                        "location": "westeurope"
+                    },
+                    "geoip_api_lookup_result": {
+                        "http://ip-api.com/json/": {
+                            "city": "Amsterdam",
+                            "country": "Netherlands",
+                            "countryCode": "NL",
+                            "lat": 52.3667,
+                            "lon": 4.9
+                        },
+                        "https://api.ipwho.org/ip/": {},
+                        "https://apip.cc/json": {
+                            "City": "Amsterdam",
+                            "CountryCode": "NL",
+                            "CountryName": "The Netherlands",
+                            "Latitude": "52.3759",
+                            "Longitude": "4.8975"
+                        },
+                        "https://free.freeipapi.com/api/json/": {
+                            "cityName": "Amsterdam",
+                            "countryCode": "NL",
+                            "countryName": "The Netherlands",
+                            "latitude": 52.3676,
+                            "longitude": 4.90414
+                        },
+                        "https://geoapi.info/api/geo": {},
+                        "https://ipinfo.io/": {
+                            "city": "Amsterdam",
+                            "country": "NL",
+                            "loc": "52.3740,4.8897"
+                        },
+                        "https://reallyfreegeoip.org/json/": {
+                            "city": "Amsterdam",
+                            "country_code": "NL",
+                            "country_name": "The Netherlands",
+                            "latitude": 52.3759,
+                            "longitude": 4.8975
+                        }
+                    },
+                    "rtt_based_estimation_result": {
+                        "closest_areas_rtt_ms": {
+                            "Alphen Aan Den Rijn, NL": 3.077,
+                            "Amsterdam, NL": 0.924,
+                            "Arnhem, NL": 4.558,
+                            "Capelle Aan Den Ijssel, NL": 3.461,
+                            "Delft, NL": 2.712,
+                            "Dronten, NL": 2.116,
+                            "Duesseldorf, DE": 4.095,
+                            "Dusseldorf, DE": 4.006,
+                            "Ede, NL": 2.471,
+                            "Haarlem, NL": 1.609,
+                            "Harderwijk, NL": 3.516,
+                            "Hoofddorp, NL": 1.391,
+                            "Meppel, NL": 3.54,
+                            "Rotterdam, NL": 2.057,
+                            "Schiphol Rijk, NL": 1.834,
+                            "Steenbergen, NL": 5.167,
+                            "The Hague, NL": 2.77,
+                            "Utrecht, NL": 2.173,
+                            "Veendam, NL": 4.378,
+                            "Zaventem, BE": 4.891
+                        },
+                        "estimated_coordinates": {
+                            "latitude": 52.22671871201438,
+                            "longitude": 4.9838660105135135
+                        },
+                        "estimated_possible_countries": {
+                            "BE": 0.010135232050181674,
+                            "DE": 0.029566437866833068,
+                            "NL": 0.9602983300829852
+                        },
+                        "reverse_geocode_lookup": {
+                            "https://api.bigdatacloud.net/data/reverse-geocode-client": {
+                                "city": "Gemeente De Ronde Venen",
+                                "countryCode": "NL",
+                                "countryName": "Netherlands (Kingdom of the)"
+                            }
+                        }
+                    },
+                    "service_owner_config_result": "westeurope"
+                }
+            },
+            "service_tools_hashes": {
+                "build_tools.py": "95fb3d065af5c8c1b25e0cb22a76c193cafe57158c7eee85849bc1c94bf8f4ab",
+                "huggingface": "86e3b11ab5475b83ada1f34cae1089aff14eb236e3814fbb42228d517a5c8bb9"
+            }
+        },
+        "service_result": {
+            "certificates": {},
+            "hashes": {
+                "code": {
+                    "code.tar": "03012262c603827d40cf6d843ca5f148aa898131a00f69fb4a3e81a4e050e2b0"
+                },
+                "code_build_args": {},
+                "inputs": {},
+                "outputs": {
+                    "bootstrap-5.3.8-dist/css/bootstrap-grid.css": "debef2607bc18da92921bd9559ec954a397ba5439d295e4face3e76f98dab9f3",
+                    "bootstrap-5.3.8-dist/css/bootstrap-grid.css.map": "e82557f5592b8c30a50c5adec02f520eb5b2770ac21d4c43512da28b6432a890",
+                    "bootstrap-5.3.8-dist/css/bootstrap-grid.min.css": "8d09c629f0198c538a1f46908e742b247d2b1398e95669c4a820ab3d65c92ffc",
+                    "bootstrap-5.3.8-dist/css/bootstrap-grid.min.css.map": "2c4e067c0b90ed9f478e68d2ad9516360a8d1fb2c41e91791610704c5ead43c6",
+                    "bootstrap-5.3.8-dist/css/bootstrap-grid.rtl.css": "76a8a1d40131b5b25964ea91c691cb86f272c528e99b497201c7ce0bf8412d99",
+                    "bootstrap-5.3.8-dist/css/bootstrap-grid.rtl.css.map": "5a281406448b5054bc580f3ebd699c9e50b83b8cade28acf6abacbc866fbbf72",
+                    "bootstrap-5.3.8-dist/css/bootstrap-grid.rtl.min.css": "0cf051030566300dbe5c37316e51741de3f1070c99d69b6ab451454c88740fd1",
+                    "bootstrap-5.3.8-dist/css/bootstrap-grid.rtl.min.css.map": "072a262c539b907521228aa90c849bd4d55b1b758bed97ff4abc1c193a801525",
+                    "bootstrap-5.3.8-dist/css/bootstrap-reboot.css": "aab39007c15ae7165880653e69a970e48d561049f8633ac31bba21aea46c412e",
+                    "bootstrap-5.3.8-dist/css/bootstrap-reboot.css.map": "3659e933792ac5af02fd374a01277b8844a1f170baaf773ffb934d41fb9801c5",
+                    "bootstrap-5.3.8-dist/css/bootstrap-reboot.min.css": "0b56cde507cfa4d5d219f71df2e2d0a9b14bd6f589583818b874fb026f0f47f7",
+                    "bootstrap-5.3.8-dist/css/bootstrap-reboot.min.css.map": "9a5528aa0d28cf40ceb4ae4e43240c1045268431efe17b12296b8fb5d4e1dd3c",
+                    "bootstrap-5.3.8-dist/css/bootstrap-reboot.rtl.css": "7fc078a56fb233e9a0cdf681cbd0efab514c121ef958818afc293b6f5e920492",
+                    "bootstrap-5.3.8-dist/css/bootstrap-reboot.rtl.css.map": "256e47ab77a717f9d83703852425a338ad263adbf2812242d17f9df75dd8a831",
+                    "bootstrap-5.3.8-dist/css/bootstrap-reboot.rtl.min.css": "34dd5626c71e17acb8a2b1912d99b83d4d2a1b8e8bffab35942c7af43d4a06b4",
+                    "bootstrap-5.3.8-dist/css/bootstrap-reboot.rtl.min.css.map": "d873886052b7391655326c3f17b2eebf5aab87931f6c0448b08b20a66f5bc798",
+                    "bootstrap-5.3.8-dist/css/bootstrap-utilities.css": "390f9de7afef4c3a68368f96899fa0ef6a08c3afb1599c7ea288d97ac89a23ff",
+                    "bootstrap-5.3.8-dist/css/bootstrap-utilities.css.map": "a4aa7f42cfd0bafb2c3958f28ab62c018100c2cf089582c53cb4c0533e70b528",
+                    "bootstrap-5.3.8-dist/css/bootstrap-utilities.min.css": "ed4cbc75169db612c3c73279698890dcdadc514094798686cae1cadda536bced",
+                    "bootstrap-5.3.8-dist/css/bootstrap-utilities.min.css.map": "b256a515ee8346b0a4665bde297959bd569c62671214c2ad3bc5aa334303a643",
+                    "bootstrap-5.3.8-dist/css/bootstrap-utilities.rtl.css": "2ea67a2d49c828015ef5f5f0988e2f9815625a13db312b459ea4c07602c8e2da",
+                    "bootstrap-5.3.8-dist/css/bootstrap-utilities.rtl.css.map": "57f19f3dab4236b8eb3914cc978971189453acb366e32d60457e6fef0e1a8239",
+                    "bootstrap-5.3.8-dist/css/bootstrap-utilities.rtl.min.css": "1bc8db7e861d1eb6a6ed461dd1a4e081f30a5714b980129d1d54589f21bc822a",
+                    "bootstrap-5.3.8-dist/css/bootstrap-utilities.rtl.min.css.map": "01408fd72e854143894e8edc466f2ba285833de5cd23e32783ede9583466ef51",
+                    "bootstrap-5.3.8-dist/css/bootstrap.css": "4a50207b956a4ab943640ee993118b554a34e96a23261cfe58b9aa1807a7849b",
+                    "bootstrap-5.3.8-dist/css/bootstrap.css.map": "b19dd044ef1e97e4bb459772e7fcab369523a1709cad56daa32a19faaa55996f",
+                    "bootstrap-5.3.8-dist/css/bootstrap.min.css": "d85327d99c7a3ee1f9b5d0500d1370acea3ad2db39c163c2f51f232baedbdede",
+                    "bootstrap-5.3.8-dist/css/bootstrap.min.css.map": "48144faf6aa0fb3cd2ce748d9730238f888f4ab715f05dabd1c9af2c5671988a",
+                    "bootstrap-5.3.8-dist/css/bootstrap.rtl.css": "39911412c957c60512a4b23a0ea1903ed5f3a0f9f7bb7446c55a99bb2e5f7463",
+                    "bootstrap-5.3.8-dist/css/bootstrap.rtl.css.map": "94981b81de4db955fccc985c498919140d4a0b3599682c43a78af9e4e0e0278a",
+                    "bootstrap-5.3.8-dist/css/bootstrap.rtl.min.css": "b9048c83571ab73da54395b6b307219f9eb9c5447f4f8edb17a069eb0f19465a",
+                    "bootstrap-5.3.8-dist/css/bootstrap.rtl.min.css.map": "7281121125b079c850e85bf8ebc0a731e36c467d9ab85f70c6a77588b883815b",
+                    "bootstrap-5.3.8-dist/js/bootstrap.bundle.js": "c76d6f3d7c95a0826a12b1db5a139e3401341ceb37caf914032d574869997fc2",
+                    "bootstrap-5.3.8-dist/js/bootstrap.bundle.js.map": "869fb5690e065dd94e705c68cb8abd5a95a7e3740afb24d9c10d1163294df668",
+                    "bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js": "affa84d3e0ba63a4677dd41f9d95de70c62cadf22a74c4a8dcdad28d1bb7ee54",
+                    "bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js.map": "c61123e58cc0a4b65d737ba070c485911b3dbec6d7b802bdf6628395abd9c08b",
+                    "bootstrap-5.3.8-dist/js/bootstrap.esm.js": "47a0f1f257b6ffc176863ece347e1032a5c7ebf7332782ed0ff7d71aadc38403",
+                    "bootstrap-5.3.8-dist/js/bootstrap.esm.js.map": "99ff5be31d2a82ba30febceed68845e4d203e3d411b6770f987f17c34a7d1f77",
+                    "bootstrap-5.3.8-dist/js/bootstrap.esm.min.js": "342c8fb431e34456cc1c766460d2c358d9b5c2a2fcc23d020afba804ceddbcc2",
+                    "bootstrap-5.3.8-dist/js/bootstrap.esm.min.js.map": "459f672fa6b544adfe9301b2efbd22c447bc4a94c87340e66143ce23ec26eb03",
+                    "bootstrap-5.3.8-dist/js/bootstrap.js": "822f001de1a102fcd863c800ec71945da2fe692ab618ce619ef36646724cdd3f",
+                    "bootstrap-5.3.8-dist/js/bootstrap.js.map": "de4fec95e11a40f82fd65cc2420547b81ae5264147413d060a92a67142ff5b8c",
+                    "bootstrap-5.3.8-dist/js/bootstrap.min.js": "888ec291627bd7047d50528b73aedec672abddd7321ac5e7c016be08e62ccb38",
+                    "bootstrap-5.3.8-dist/js/bootstrap.min.js.map": "52b03d8d959ca53d69c1f34c13e6242080c9accbbe0237c829349f777383c0cb"
+                }
+            },
+            "power_usage": {
+                "codecarbon": {
+                    "01_uploads": 1.03624925377548e-05,
+                    "02_preparing_downloading_files": 1.0350087160110525e-05,
+                    "03_preparing_computing_hashes": 1.0352569412888409e-05,
+                    "04_preparing_building_container_image": 0.002408459587773291,
+                    "05_running": 0.000130482814127834,
+                    "99_total_power_usage_KWh": 0.0025700075510118785
+                }
+            },
+            "timestamp": 1774262086.301471
+        }
+    }
+}
+[2026-03-23 10:34:46,308] [INFO] -- Storing the asset certificate...
+[2026-03-23 10:34:46,309] [INFO] -- Obtaining the computation outputs referred in the asset certificate...
+[2026-03-23 10:34:46,309] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-grid.css
+[2026-03-23 10:34:46,330] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-grid.css.map
+[2026-03-23 10:34:46,356] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-grid.min.css
+[2026-03-23 10:34:46,377] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-grid.min.css.map
+[2026-03-23 10:34:46,401] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-grid.rtl.css
+[2026-03-23 10:34:46,423] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-grid.rtl.css.map
+[2026-03-23 10:34:46,451] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-grid.rtl.min.css
+[2026-03-23 10:34:46,473] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-grid.rtl.min.css.map
+[2026-03-23 10:34:46,496] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-reboot.css
+[2026-03-23 10:34:46,516] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-reboot.css.map
+[2026-03-23 10:34:46,539] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-reboot.min.css
+[2026-03-23 10:34:46,560] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-reboot.min.css.map
+[2026-03-23 10:34:46,582] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-reboot.rtl.css
+[2026-03-23 10:34:46,601] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-reboot.rtl.css.map
+[2026-03-23 10:34:46,623] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-reboot.rtl.min.css
+[2026-03-23 10:34:46,641] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-reboot.rtl.min.css.map
+[2026-03-23 10:34:46,662] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-utilities.css
+[2026-03-23 10:34:46,683] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-utilities.css.map
+[2026-03-23 10:34:46,707] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-utilities.min.css
+[2026-03-23 10:34:46,729] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-utilities.min.css.map
+[2026-03-23 10:34:46,752] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-utilities.rtl.css
+[2026-03-23 10:34:46,773] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-utilities.rtl.css.map
+[2026-03-23 10:34:46,799] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-utilities.rtl.min.css
+[2026-03-23 10:34:46,819] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap-utilities.rtl.min.css.map
+[2026-03-23 10:34:46,844] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap.css
+[2026-03-23 10:34:46,872] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap.css.map
+[2026-03-23 10:34:46,907] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap.min.css
+[2026-03-23 10:34:46,933] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap.min.css.map
+[2026-03-23 10:34:46,977] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap.rtl.css
+[2026-03-23 10:34:47,006] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap.rtl.css.map
+[2026-03-23 10:34:47,046] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap.rtl.min.css
+[2026-03-23 10:34:47,081] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/css/bootstrap.rtl.min.css.map
+[2026-03-23 10:34:47,114] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.bundle.js
+[2026-03-23 10:34:47,141] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.bundle.js.map
+[2026-03-23 10:34:47,172] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js
+[2026-03-23 10:34:47,195] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js.map
+[2026-03-23 10:34:47,233] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.esm.js
+[2026-03-23 10:34:47,259] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.esm.js.map
+[2026-03-23 10:34:47,288] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.esm.min.js
+[2026-03-23 10:34:47,310] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.esm.min.js.map
+[2026-03-23 10:34:47,335] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.js
+[2026-03-23 10:34:47,360] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.js.map
+[2026-03-23 10:34:47,388] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.min.js
+[2026-03-23 10:34:47,409] [INFO] --- Downloading and storing: bootstrap-5.3.8-dist/js/bootstrap.min.js.map
+[2026-03-23 10:34:47,434] [INFO] ==================================================
+Total time (s): 151.86946320533752

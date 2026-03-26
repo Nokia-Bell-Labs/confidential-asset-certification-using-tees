@@ -1,0 +1,247 @@
+[2026-03-24 07:16:01,792] [INFO] examples/datasets/open-thoughts/OpenThoughts-114k/
+{'name': 'open-thoughts/OpenThoughts-114k', 'inputs': [{'upload_method': 'hf_url', 'asset_type': 'dataset', 'asset_id': 'open-thoughts/OpenThoughts-114k'}], 'code_folder': '../../code/tabular_info/'}
+[2026-03-24 07:16:01,792] [INFO] Setting up duet controller interaction...
+[2026-03-24 07:16:01,792] [INFO] Obtaining and verifying the state of the duet admin...
+Expecting MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Found MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Valid SGX controller: True
+[OK] Verified service info.
+[2026-03-24 07:16:02,062] [INFO] Creating a certification request for: open-thoughts/OpenThoughts-114k
+[2026-03-24 07:16:02,111] [INFO] Certification request: {
+    "request_cvm_id": "6a5bc65b74806a496eba4440af373eca86cf8ee0be363256a2a9820714288f8f",
+    "request_id": "d8b63181-6140-4641-a70c-f8226a2dc58c",
+    "request_token": "74de53a8f123b02cb9f2481fcb1a2066de002c247cb272cfabb9a4771c5f76d6"
+}
+{'rfilename': '.gitattributes', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/.gitattributes'} 1 23 0.043478260869565216
+[2026-03-24 07:16:02,526] [INFO] .gitattributes asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/.gitattributes
+{'rfilename': 'README.md', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/README.md'} 2 23 0.08695652173913043
+[2026-03-24 07:16:05,496] [INFO] README.md asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/README.md
+{'rfilename': 'data/train-00000-of-00006.parquet', 'sha256': '11c37cde12bed21dff55e71ebeea3fa1616cf86432575926992129087bf75848', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00000-of-00006.parquet'} 3 23 0.13043478260869565
+[2026-03-24 07:16:08,299] [INFO] data/train-00000-of-00006.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00000-of-00006.parquet
+{'rfilename': 'data/train-00001-of-00006.parquet', 'sha256': '3146129eb2d332e8e5c3644a98d4924b7d64c4501d6687c6c131d89f5c807291', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00001-of-00006.parquet'} 4 23 0.17391304347826086
+[2026-03-24 07:16:11,103] [INFO] data/train-00001-of-00006.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00001-of-00006.parquet
+{'rfilename': 'data/train-00002-of-00006.parquet', 'sha256': '30e5a10472e3759c0c40b38495427cc75146b0aac1ea96c71f33dcd58ab2503e', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00002-of-00006.parquet'} 5 23 0.21739130434782608
+[2026-03-24 07:16:13,901] [INFO] data/train-00002-of-00006.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00002-of-00006.parquet
+{'rfilename': 'data/train-00003-of-00006.parquet', 'sha256': '859fe59a022e7cc161b60211bbea77a1b88e136ea80c21c25158001e720f0138', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00003-of-00006.parquet'} 6 23 0.2608695652173913
+[2026-03-24 07:16:16,701] [INFO] data/train-00003-of-00006.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00003-of-00006.parquet
+{'rfilename': 'data/train-00004-of-00006.parquet', 'sha256': 'fd1006c99941b068fd8b67554244af5534c11fcaeb175bfe6f3687129177e580', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00004-of-00006.parquet'} 7 23 0.30434782608695654
+[2026-03-24 07:16:19,501] [INFO] data/train-00004-of-00006.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00004-of-00006.parquet
+{'rfilename': 'data/train-00005-of-00006.parquet', 'sha256': 'bd455b4a7638967557919b683297f8f4014efe58a7c75c90cc5da62e88bced1f', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00005-of-00006.parquet'} 8 23 0.34782608695652173
+[2026-03-24 07:16:22,303] [INFO] data/train-00005-of-00006.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/data/train-00005-of-00006.parquet
+{'rfilename': 'diagram.png', 'sha256': '04699a3588cfb4070caa730ffbc61850d42d6e7d0e41cb315d9d6ad59866e13b', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/diagram.png'} 9 23 0.391304347826087
+[2026-03-24 07:16:25,115] [INFO] diagram.png asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/diagram.png
+{'rfilename': 'diagram_dark.png', 'sha256': '274c015b29dc13347b0b3acb217d8e31f5eca32f6a06a159b739f67dc9350f78', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/diagram_dark.png'} 10 23 0.43478260869565216
+[2026-03-24 07:16:27,917] [INFO] diagram_dark.png asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/diagram_dark.png
+{'rfilename': 'metadata/train-00000-of-00012.parquet', 'sha256': 'dfd373528b936ce3a2d48014f84f22ed00029b8c0793d332f0b50416d9a2bbe3', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00000-of-00012.parquet'} 11 23 0.4782608695652174
+[2026-03-24 07:16:30,720] [INFO] metadata/train-00000-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00000-of-00012.parquet
+{'rfilename': 'metadata/train-00001-of-00012.parquet', 'sha256': 'eb84a5bebbbbeeae17c344df3f6c2d2c3ac1453e8ff14686a3f6dee0713c0812', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00001-of-00012.parquet'} 12 23 0.5217391304347826
+[2026-03-24 07:16:33,521] [INFO] metadata/train-00001-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00001-of-00012.parquet
+{'rfilename': 'metadata/train-00002-of-00012.parquet', 'sha256': 'f5eec88534d5fb3c9911506805dc0b8a1925795d00d632a65d6057f5aa7f24e8', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00002-of-00012.parquet'} 13 23 0.5652173913043478
+[2026-03-24 07:16:36,323] [INFO] metadata/train-00002-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00002-of-00012.parquet
+{'rfilename': 'metadata/train-00003-of-00012.parquet', 'sha256': 'cd769de8f5cc4f0a3755072b043c5573f6039dc327fccd9382e14ecff0fe0a0d', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00003-of-00012.parquet'} 14 23 0.6086956521739131
+[2026-03-24 07:16:39,126] [INFO] metadata/train-00003-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00003-of-00012.parquet
+{'rfilename': 'metadata/train-00004-of-00012.parquet', 'sha256': 'dea8d538be951f3907a25e6afd581c639d6b557261bd67680c15b2941798ab5f', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00004-of-00012.parquet'} 15 23 0.6521739130434783
+[2026-03-24 07:16:41,930] [INFO] metadata/train-00004-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00004-of-00012.parquet
+{'rfilename': 'metadata/train-00005-of-00012.parquet', 'sha256': 'e2a3f5d3b148cfe76a42de8f512840588ca24b5feffe14a793972609a6ead7a7', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00005-of-00012.parquet'} 16 23 0.6956521739130435
+[2026-03-24 07:16:44,730] [INFO] metadata/train-00005-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00005-of-00012.parquet
+{'rfilename': 'metadata/train-00006-of-00012.parquet', 'sha256': '8f460480e7bb8b0221392c01936653c120d1c4eae6b47330e77b3856b1052c17', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00006-of-00012.parquet'} 17 23 0.7391304347826086
+[2026-03-24 07:16:47,530] [INFO] metadata/train-00006-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00006-of-00012.parquet
+{'rfilename': 'metadata/train-00007-of-00012.parquet', 'sha256': '124fbce9154f64bac8693ccc271d2aa81aabd86ab9162e6d223d2d5935132543', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00007-of-00012.parquet'} 18 23 0.782608695652174
+[2026-03-24 07:16:50,348] [INFO] metadata/train-00007-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00007-of-00012.parquet
+{'rfilename': 'metadata/train-00008-of-00012.parquet', 'sha256': '40848e354099ebc3613759abfff9aa28cf37e4242677c28e8ae757c658e42390', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00008-of-00012.parquet'} 19 23 0.8260869565217391
+[2026-03-24 07:16:53,149] [INFO] metadata/train-00008-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00008-of-00012.parquet
+{'rfilename': 'metadata/train-00009-of-00012.parquet', 'sha256': '453cf7addc59f93f0bf9d7ad7f7a55436571695d12bd71cb98ab82230bdf3d8f', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00009-of-00012.parquet'} 20 23 0.8695652173913043
+[2026-03-24 07:16:55,953] [INFO] metadata/train-00009-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00009-of-00012.parquet
+{'rfilename': 'metadata/train-00010-of-00012.parquet', 'sha256': 'd97d53c138e3c04bb00ca39712bb52e86d699038617922b5d2e171ff98154bf5', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00010-of-00012.parquet'} 21 23 0.9130434782608695
+[2026-03-24 07:16:58,758] [INFO] metadata/train-00010-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00010-of-00012.parquet
+{'rfilename': 'metadata/train-00011-of-00012.parquet', 'sha256': 'c70148144091b97b90e933a174412919b983dc84626eba1399d77b37866b8d10', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00011-of-00012.parquet'} 22 23 0.9565217391304348
+[2026-03-24 07:17:01,562] [INFO] metadata/train-00011-of-00012.parquet asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/metadata/train-00011-of-00012.parquet
+{'rfilename': 'open_thoughts.png', 'sha256': '36478f501f8adda7db45abd4372bd979c98cc6b05a342c37f04da3279bcc5449', 'asset_url': 'https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/open_thoughts.png'} 23 23 1.0
+[2026-03-24 07:17:04,362] [INFO] open_thoughts.png asset_url: https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k/resolve/main/open_thoughts.png
+[2026-03-24 07:17:07,164] [INFO] -- Creating the computation code archive...
+[2026-03-24 07:17:07,164] [INFO] examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/
+['examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/Dockerfile', 'examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/Readme.md', 'examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/compute_dataset_property.py', 'examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/libprop', 'examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/requirements.txt']
+-- Archiving examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/ into buffer...
+examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/Dockerfile
+examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/Readme.md
+examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/compute_dataset_property.py
+examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/libprop
+examples/datasets/open-thoughts/OpenThoughts-114k/../../code/tabular_info/requirements.txt
+[2026-03-24 07:17:07,165] [INFO] -- Uploading the computation code archive...
+Property computation code hash: 7a2b3f35eaf3fd76b3c7761408b32131270b89ded9acd5cdb791e3bd49f8a59e
+[2026-03-24 07:17:09,989] [INFO] -- Preparing the computation...
+[2026-03-24 07:17:10,033] [INFO] -- Waiting until preparation finishes...
+[2026-03-24 07:17:10,075] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'INITIALIZING'}
+[2026-03-24 07:17:15,127] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_DOWNLOADING_FILES'}
+[2026-03-24 07:17:20,175] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_DOWNLOADING_FILES'}
+[2026-03-24 07:17:25,225] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_DOWNLOADING_FILES'}
+[2026-03-24 07:17:30,275] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_DOWNLOADING_FILES'}
+[2026-03-24 07:17:35,325] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_MOVING_FILES'}
+[2026-03-24 07:17:40,373] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_COMPUTING_HASHES'}
+[2026-03-24 07:17:45,423] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:17:51,718] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:17:56,767] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:18:01,818] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:18:06,867] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:18:11,912] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:18:16,961] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-24 07:18:22,006] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'READY'}
+[2026-03-24 07:18:22,007] [INFO] -- Starting certification computation...
+[2026-03-24 07:18:22,051] [INFO] -- Waiting until computation finishes...
+[2026-03-24 07:18:22,094] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'RUNNING'}
+[2026-03-24 07:18:27,139] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'RUNNING'}
+[2026-03-24 07:18:32,190] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'RUNNING'}
+[2026-03-24 07:18:37,244] [INFO] {'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'RUNNING'}
+[2026-03-24 07:18:42,613] [INFO] {'log_lines': ["['/tmp/compute_dataset_property.py']", '/tmp/inputs **/*.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00002-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00004-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00000-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00010-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00001-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00009-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00006-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00005-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00011-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00008-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00007-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/metadata/train-00003-of-00012.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/data/train-00004-of-00006.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/data/train-00001-of-00006.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/data/train-00003-of-00006.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/data/train-00005-of-00006.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/data/train-00002-of-00006.parquet', '/tmp/inputs/open-thoughts/OpenThoughts-114k/data/train-00000-of-00006.parquet', '{', '    "data": {', '        "columns": {', '            "conversations": {', '                "column_count_datatypes": {', '                    "<class \'numpy.ndarray\'>": 113957', '                },', '                "column_count_null": 0,', '                "column_name": "conversations",', '                "data_length_ranges": {', '                    "<class \'numpy.ndarray\'>": {', '                        "2": 113957', '                    }', '                }', '            },', '            "system": {', '                "column_count_datatypes": {', '                    "<class \'str\'>": 113957', '                },', '                "column_count_null": 0,', '                "column_name": "system",', '                "data_categories": {', '                    "<class \'str\'>": "1 class(es)"', '                }', '            }', '        },', '        "filenames": [', '            "open-thoughts/OpenThoughts-114k/data/train-00004-of-00006.parquet",', '            "open-thoughts/OpenThoughts-114k/data/train-00001-of-00006.parquet",', '            "open-thoughts/OpenThoughts-114k/data/train-00003-of-00006.parquet",', '            "open-thoughts/OpenThoughts-114k/data/train-00005-of-00006.parquet",', '            "open-thoughts/OpenThoughts-114k/data/train-00002-of-00006.parquet",', '            "open-thoughts/OpenThoughts-114k/data/train-00000-of-00006.parquet"', '        ],', '        "number_of_items": 113957,', '        "timestamp": 1774336718.29677', '    },', '    "metadata": {', '        "columns": {', '            "deepseek_reasoning": {', '                "column_count_datatypes": {', '                    "<class \'str\'>": 113957', '                },', '                "column_count_null": 0,', '                "column_name": "deepseek_reasoning",', '                "data_length_ranges": {', '                    "<class \'str\'>": {', '                        "106420-119634": 20,', '                        "119634-132843": 1,', '                        "13922-27136": 29100,', '                        "27136-40350": 13111,', '                        "40350-53564": 7811,', '                        "53564-66778": 4122,', '                        "66778-79992": 1406,', '                        "708-13922": 57944,', '                        "79992-93206": 368,', '                        "93206-106420": 74', '                    }', '                }', '            },', '            "deepseek_solution": {', '                "column_count_datatypes": {', '                    "<class \'str\'>": 113957', '                },', '                "column_count_null": 0,', '                "column_name": "deepseek_solution",', '                "data_length_ranges": {', '                    "<class \'str\'>": {', '                        "0-1330": 33573,', '                        "10640-11970": 7,', '                        "11970-13295": 4,', '                        "13295-13295": 1,', '                        "1330-2660": 67488,', '                        "2660-3990": 10015,', '                        "3990-5320": 2254,', '                        "5320-6650": 433,', '                        "6650-7980": 130,', '                        "7980-9310": 40,', '                        "9310-10640": 12', '                    }', '                }', '            },', '            "domain": {', '                "column_count_datatypes": {', '                    "<class \'str\'>": 113957', '                },', '                "column_count_null": 0,', '                "column_name": "domain",', '                "data_categories": {', '                    "<class \'str\'>": "6 class(es)"', '                }', '            },', '            "ground_truth_solution": {', '                "column_count_datatypes": {', '                    "<class \'str\'>": 90339', '                },', '                "column_count_null": 23618,', '                "column_name": "ground_truth_solution",', '                "data_length_ranges": {', '                    "<class \'str\'>": {', '                        "1-834": 4114,', '                        "1667-2500": 44589,', '                        "2500-3333": 14720,', '                        "3333-4166": 1773,', '                        "4166-4999": 228,', '                        "4999-5832": 44,', '                        "5832-6665": 18,', '                        "6665-7498": 7,', '                        "7498-8326": 1,', '                        "8326-8326": 1,', '                        "834-1667": 24844', '                    }', '                }', '            },', '            "problem": {', '                "column_count_datatypes": {', '                    "<class \'str\'>": 113957', '                },', '                "column_count_null": 0,', '                "column_name": "problem",', '                "data_length_ranges": {', '                    "<class \'str\'>": {', '                        "11168-12562": 0,', '                        "1410-2804": 8338,', '                        "16-1410": 104451,', '                        "2804-4198": 1016,', '                        "4198-5592": 132,', '                        "5592-6986": 15,', '                        "6986-8380": 3,', '                        "8380-9774": 1,', '                        "9774-11168": 0,', '                        "9774-13955": 1', '                    }', '                }', '            },', '            "source": {', '                "column_count_datatypes": {', '                    "<class \'str\'>": 113957', '                },', '                "column_count_null": 0,', '                "column_name": "source",', '                "data_categories": {', '                    "<class \'str\'>": "9 class(es)"', '                }', '            },', '            "starter_code": {', '                "column_count_datatypes": {', '                    "<class \'str\'>": 19904', '                },', '                "column_count_null": 94053,', '                "column_name": "starter_code",', '                "data_length_ranges": {', '                    "<class \'str\'>": {', '                        "0-147": 19471,', '                        "1029-1176": 2,', '                        "1176-1323": 0,', '                        "1176-1466": 1,', '                        "147-294": 317,', '                        "294-441": 86,', '                        "441-588": 20,', '                        "588-735": 4,', '                        "735-882": 1,', '                        "882-1029": 2', '                    }', '                }', '            },', '            "test_cases": {', '                "column_count_datatypes": {', '                    "<class \'str\'>": 19904', '                },', '                "column_count_null": 94053,', '                "column_name": "test_cases",', '                "data_length_ranges": {', '                    "<class \'str\'>": {', '                        "15846163-23769228": 18,', '                        "23769228-31692293": 5,', '                        "31692293-39615358": 2,', '                        "33-7923098": 19834,', '                        "39615358-47538423": 2,', '                        "47538423-55461488": 2,', '                        "55461488-63384553": 1,', '                        "63384553-71307618": 0,', '                        "63384553-79230674": 1,', '                        "7923098-15846163": 39', '                    }', '                }', '            }', '        },', '        "filenames": [', '            "open-thoughts/OpenThoughts-114k/metadata/train-00002-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00004-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00000-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00010-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00001-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00009-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00006-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00005-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00011-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00008-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00007-of-00012.parquet",', '            "open-thoughts/OpenThoughts-114k/metadata/train-00003-of-00012.parquet"', '        ],', '        "number_of_items": 113957,', '        "timestamp": 1774336714.5519903', '    }', '}'], 'request_id': 'd8b63181-6140-4641-a70c-f8226a2dc58c', 'status': 'FINISHED'}
+[2026-03-24 07:18:42,614] [INFO] -- Obtaining the certification result...
+{
+    "duet_admin_signature": "m+W2rqKypLJDmLG+N0CNKde4SDCEtqSZTuSyn/Xan+xb0xfQeVMOQFIqlBI9f3ouKj8yajSa6zy3cIDegWpDC4yq1YTagm9caoFT9IGqAfv26p5wa0J2IIMNQlh3VhSG1hyDfCzkMtAsSbr3ekrscJRVLV3nLBMOE8NT1Aamapo3SfxyQqt1EJOpyzDotGzZkWosBFHB6YPorrF0uTnJG2GLLCneNYH4CuV9sPk8Uv9/5j/jIjg+d68QyYrFgSF5jf4f2zc8YajE+C7xOq+yf6iirL319NWwTBS3BWynZF3ty5H13ICWNvjVXh3lEf9bChJCscj4ik59Z+MCBXWiEbAmZTEeGp8cTe609t9fswUkN8AIxYim0DCneZ1ZcM5QeERoLjpgqYyIMFgGD36CrYIJ3gjPSVryKr6N72Nz6RG3IUya8kdPNWWyT+k9evIHftkpbwnk8QSCSplF9UNJokNGq57qE1rOjITXPrTGs2eXD5gyT6SEmg1/JT+qTnOtJFpQOJLJBEky/XH/dokHw61drp9fE4igzPaej7ZmfdcFHImgUW2yLjMiW14JI/V057FTYg3Si7C17JfOF86iasjSAkuXaML+NREWySEV5ZWviStIwUOWOSecHGILkMBbcA/GBao7+ZVYLyCZ41Lpr2BBDr0OSKI8yfRecSmxBVM=",
+    "duet_service_result": {
+        "service_info": {
+            "service_code_hash": "b853d36744e9ca4b7105b25c5e3dd26d91c99f166bce1ed8264bbf77eaefe683",
+            "service_dependencies_hash": "06e8368f5451b021c83ac2b41ceac201a5bcdba3193377d84a7c0b0ffffb1e29",
+            "service_location": {
+                "6a5bc65b74806a496eba4440af373eca86cf8ee0be363256a2a9820714288f8f": {
+                    "cloud_provider_metadata_result": {
+                        "azEnvironment": "AzurePublicCloud",
+                        "location": "westeurope"
+                    },
+                    "geoip_api_lookup_result": {
+                        "http://ip-api.com/json/": {
+                            "city": "Amsterdam",
+                            "country": "Netherlands",
+                            "countryCode": "NL",
+                            "lat": 52.3667,
+                            "lon": 4.9
+                        },
+                        "https://api.ipwho.org/ip/": {},
+                        "https://apip.cc/json": {
+                            "City": "Amsterdam",
+                            "CountryCode": "NL",
+                            "CountryName": "The Netherlands",
+                            "Latitude": "52.3759",
+                            "Longitude": "4.8975"
+                        },
+                        "https://free.freeipapi.com/api/json/": {
+                            "cityName": "Amsterdam",
+                            "countryCode": "NL",
+                            "countryName": "The Netherlands",
+                            "latitude": 52.3676,
+                            "longitude": 4.90414
+                        },
+                        "https://geoapi.info/api/geo": {},
+                        "https://ipinfo.io/": {
+                            "city": "Amsterdam",
+                            "country": "NL",
+                            "loc": "52.3740,4.8897"
+                        },
+                        "https://reallyfreegeoip.org/json/": {
+                            "city": "Amsterdam",
+                            "country_code": "NL",
+                            "country_name": "The Netherlands",
+                            "latitude": 52.3759,
+                            "longitude": 4.8975
+                        }
+                    },
+                    "rtt_based_estimation_result": {
+                        "closest_areas_rtt_ms": {
+                            "Alphen Aan Den Rijn, NL": 3.012,
+                            "Amsterdam, NL": 1.357,
+                            "Apeldoorn, NL": 2.493,
+                            "Arnhem, NL": 2.448,
+                            "Capelle Aan Den Ijssel, NL": 3.335,
+                            "Delft, NL": 2.58,
+                            "Dronten, NL": 2.706,
+                            "Duesseldorf, DE": 4.061,
+                            "Dusseldorf, DE": 3.752,
+                            "Dusseldorf, Germany, DE": 4.315,
+                            "Ede, NL": 2.026,
+                            "Haarlem, NL": 1.412,
+                            "Harderwijk, NL": 3.557,
+                            "Hoofddorp, NL": 1.643,
+                            "Meppel, NL": 3.42,
+                            "Rotterdam, NL": 2.346,
+                            "Schiphol Rijk, NL": 1.71,
+                            "The Hague, NL": 2.8,
+                            "Utrecht, NL": 2.32,
+                            "Veendam, NL": 4.284
+                        },
+                        "estimated_coordinates": {
+                            "latitude": 52.19807709304665,
+                            "longitude": 5.093570621205583
+                        },
+                        "estimated_possible_countries": {
+                            "DE": 0.04990276103047404,
+                            "NL": 0.950097238969526
+                        },
+                        "reverse_geocode_lookup": {
+                            "https://api.bigdatacloud.net/data/reverse-geocode-client": {
+                                "city": "Gemeente Wijdemeren",
+                                "countryCode": "NL",
+                                "countryName": "Netherlands (Kingdom of the)"
+                            }
+                        }
+                    },
+                    "service_owner_config_result": "westeurope"
+                }
+            },
+            "service_tools_hashes": {
+                "build_tools.py": "95fb3d065af5c8c1b25e0cb22a76c193cafe57158c7eee85849bc1c94bf8f4ab",
+                "huggingface": "86e3b11ab5475b83ada1f34cae1089aff14eb236e3814fbb42228d517a5c8bb9"
+            }
+        },
+        "service_result": {
+            "certificates": {},
+            "hashes": {
+                "code": {
+                    "code.tar": "7a2b3f35eaf3fd76b3c7761408b32131270b89ded9acd5cdb791e3bd49f8a59e"
+                },
+                "code_build_args": {},
+                "inputs": {
+                    "open-thoughts/OpenThoughts-114k/.gitattributes": "e7a120ab07b1bc5b486be249e9fc6c83d59448d0093e1dfebe95d1566d9cafc0",
+                    "open-thoughts/OpenThoughts-114k/README.md": "87dd0984b1ae912cd50507327d1358e378b3de07740600895734c939d0a55946",
+                    "open-thoughts/OpenThoughts-114k/data/train-00000-of-00006.parquet": "11c37cde12bed21dff55e71ebeea3fa1616cf86432575926992129087bf75848",
+                    "open-thoughts/OpenThoughts-114k/data/train-00001-of-00006.parquet": "3146129eb2d332e8e5c3644a98d4924b7d64c4501d6687c6c131d89f5c807291",
+                    "open-thoughts/OpenThoughts-114k/data/train-00002-of-00006.parquet": "30e5a10472e3759c0c40b38495427cc75146b0aac1ea96c71f33dcd58ab2503e",
+                    "open-thoughts/OpenThoughts-114k/data/train-00003-of-00006.parquet": "859fe59a022e7cc161b60211bbea77a1b88e136ea80c21c25158001e720f0138",
+                    "open-thoughts/OpenThoughts-114k/data/train-00004-of-00006.parquet": "fd1006c99941b068fd8b67554244af5534c11fcaeb175bfe6f3687129177e580",
+                    "open-thoughts/OpenThoughts-114k/data/train-00005-of-00006.parquet": "bd455b4a7638967557919b683297f8f4014efe58a7c75c90cc5da62e88bced1f",
+                    "open-thoughts/OpenThoughts-114k/diagram.png": "04699a3588cfb4070caa730ffbc61850d42d6e7d0e41cb315d9d6ad59866e13b",
+                    "open-thoughts/OpenThoughts-114k/diagram_dark.png": "274c015b29dc13347b0b3acb217d8e31f5eca32f6a06a159b739f67dc9350f78",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00000-of-00012.parquet": "dfd373528b936ce3a2d48014f84f22ed00029b8c0793d332f0b50416d9a2bbe3",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00001-of-00012.parquet": "eb84a5bebbbbeeae17c344df3f6c2d2c3ac1453e8ff14686a3f6dee0713c0812",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00002-of-00012.parquet": "f5eec88534d5fb3c9911506805dc0b8a1925795d00d632a65d6057f5aa7f24e8",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00003-of-00012.parquet": "cd769de8f5cc4f0a3755072b043c5573f6039dc327fccd9382e14ecff0fe0a0d",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00004-of-00012.parquet": "dea8d538be951f3907a25e6afd581c639d6b557261bd67680c15b2941798ab5f",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00005-of-00012.parquet": "e2a3f5d3b148cfe76a42de8f512840588ca24b5feffe14a793972609a6ead7a7",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00006-of-00012.parquet": "8f460480e7bb8b0221392c01936653c120d1c4eae6b47330e77b3856b1052c17",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00007-of-00012.parquet": "124fbce9154f64bac8693ccc271d2aa81aabd86ab9162e6d223d2d5935132543",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00008-of-00012.parquet": "40848e354099ebc3613759abfff9aa28cf37e4242677c28e8ae757c658e42390",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00009-of-00012.parquet": "453cf7addc59f93f0bf9d7ad7f7a55436571695d12bd71cb98ab82230bdf3d8f",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00010-of-00012.parquet": "d97d53c138e3c04bb00ca39712bb52e86d699038617922b5d2e171ff98154bf5",
+                    "open-thoughts/OpenThoughts-114k/metadata/train-00011-of-00012.parquet": "c70148144091b97b90e933a174412919b983dc84626eba1399d77b37866b8d10",
+                    "open-thoughts/OpenThoughts-114k/open_thoughts.png": "36478f501f8adda7db45abd4372bd979c98cc6b05a342c37f04da3279bcc5449"
+                },
+                "outputs": {
+                    "computation_result.json": "00ecf7ab2b00edf2e25cd60172be942f023420117eadac716ee647b86d3b5e59"
+                }
+            },
+            "power_usage": {
+                "codecarbon": {
+                    "01_uploads": 0.00024875775253689223,
+                    "02_preparing_downloading_files": 0.0004124608955188888,
+                    "03_preparing_computing_hashes": 5.887008405823667e-05,
+                    "04_preparing_building_container_image": 0.0007253813118345092,
+                    "05_running": 0.00029422179064141275,
+                    "99_total_power_usage_KWh": 0.0017396918345899395
+                }
+            },
+            "timestamp": 1774336722.6328266
+        }
+    }
+}
+[2026-03-24 07:18:42,639] [INFO] -- Storing the asset certificate...
+[2026-03-24 07:18:42,639] [INFO] -- Obtaining the computation outputs referred in the asset certificate...
+[2026-03-24 07:18:42,640] [INFO] --- Downloading and storing: computation_result.json
+[2026-03-24 07:18:42,660] [INFO] ==================================================
+Total time (s): 160.86816382408142

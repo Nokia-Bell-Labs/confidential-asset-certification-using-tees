@@ -1,0 +1,344 @@
+[2026-03-23 11:55:14,425] [INFO] examples/models/sgugger/glue-mrpc/
+{'name': 'sgugger/glue-mrpc', 'inputs': [{'upload_method': 'hf_cache', 'asset_type': 'dataset', 'asset_id': 'nyu-mll/glue', 'token_path': '../../../dev_test_docker/hf_token', 'configs': ['mrpc']}, {'upload_method': 'hf_cache', 'asset_type': 'model', 'asset_id': 'sgugger/glue-mrpc'}, {'upload_method': 'direct', 'input_folder': 'inputs/'}], 'code_folder': 'code/gpu/'}
+[2026-03-23 11:55:14,425] [INFO] Setting up duet controller interaction...
+[2026-03-23 11:55:14,425] [INFO] Obtaining and verifying the state of the duet admin...
+Expecting MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Found MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Valid SGX controller: True
+[OK] Verified service info.
+[2026-03-23 11:55:14,721] [INFO] Creating a certification request for: sgugger/glue-mrpc
+[2026-03-23 11:55:14,770] [INFO] Certification request: {
+    "request_cvm_id": "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad",
+    "request_id": "6f1f564d-ac26-4319-9a55-c0fa87b4e7b2",
+    "request_token": "728f9f6c2038e93af9398497f37084649f768826645c25cecd06d61cd8e7772e"
+}
+-- Providing input as hf_cache... nyu-mll/glue dataset
+-- Providing input as hf_cache... sgugger/glue-mrpc model
+[2026-03-23 11:55:20,382] [INFO] -- Uploading necessary input files...
+[2026-03-23 11:55:20,383] [INFO] --- Uploading input: examples/models/sgugger/glue-mrpc/inputs/dotenv dotenv
+[2026-03-23 11:55:23,187] [INFO] {'message': 'Input/code uploaded successfully.'}
+[2026-03-23 11:55:23,187] [INFO] -- Creating the computation code archive...
+[2026-03-23 11:55:23,187] [INFO] examples/models/sgugger/glue-mrpc/code/gpu/
+['examples/models/sgugger/glue-mrpc/code/gpu/Dockerfile', 'examples/models/sgugger/glue-mrpc/code/gpu/compute_model_property.py', 'examples/models/sgugger/glue-mrpc/code/gpu/requirements.txt']
+-- Archiving examples/models/sgugger/glue-mrpc/code/gpu/ into buffer...
+examples/models/sgugger/glue-mrpc/code/gpu/Dockerfile
+examples/models/sgugger/glue-mrpc/code/gpu/compute_model_property.py
+examples/models/sgugger/glue-mrpc/code/gpu/requirements.txt
+[2026-03-23 11:55:23,188] [INFO] -- Uploading the computation code archive...
+Property computation code hash: 71d7698a8c24a7702325d8842b59babc3cd6ea7a970a9c754b380b4ae3c0f9d9
+[2026-03-23 11:55:25,989] [INFO] -- Preparing the computation...
+[2026-03-23 11:55:26,033] [INFO] -- Waiting until preparation finishes...
+[2026-03-23 11:55:26,074] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'INITIALIZING'}
+[2026-03-23 11:55:31,124] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_DOWNLOADING_FILES'}
+[2026-03-23 11:55:36,172] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_DOWNLOADING_FILES'}
+[2026-03-23 11:55:41,221] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_DOWNLOADING_FILES'}
+[2026-03-23 11:55:46,272] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_COMPUTING_HASHES'}
+[2026-03-23 11:55:51,321] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:55:56,369] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:01,414] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:06,463] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:11,514] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:16,563] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:21,612] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:26,661] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:31,710] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:36,759] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:41,807] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:46,854] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:51,904] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:56:56,953] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:02,003] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:07,057] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:12,105] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:17,153] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:22,202] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:27,255] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:32,304] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:37,353] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:42,404] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:47,453] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:52,501] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:57:57,549] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:02,597] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:07,646] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:12,694] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:17,742] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:22,791] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:27,840] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:32,890] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:37,938] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:42,987] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:48,036] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:53,084] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:58:58,133] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:03,182] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:08,231] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:13,280] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:18,329] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:23,378] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:32,778] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:37,827] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:42,876] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:47,925] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:52,974] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 11:59:58,024] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:03,069] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:08,113] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:13,157] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:18,206] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:23,253] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:28,302] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:33,350] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:38,400] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:43,448] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:48,497] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:53,545] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:00:58,594] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:03,639] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:08,685] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:13,732] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:18,780] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:23,828] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:32,551] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:37,601] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:42,650] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:47,699] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:52,747] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:01:57,795] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:02,844] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:07,893] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:12,944] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:17,994] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:23,041] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:28,086] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:33,135] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:38,184] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:43,233] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:48,282] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:53,330] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:02:58,377] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:03,426] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:08,471] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:13,518] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:18,566] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:23,612] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:28,660] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:33,705] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:38,751] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:43,800] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:48,849] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:53,898] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:03:58,947] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:03,994] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:09,040] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:14,086] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:19,135] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:24,183] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:29,231] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:34,281] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:39,329] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:44,379] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:49,427] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:54,476] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:04:59,526] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:09,086] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:14,135] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:19,181] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:24,227] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:29,276] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:34,325] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:39,373] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:44,421] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:49,470] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:54,519] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 12:05:59,567] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'READY'}
+[2026-03-23 12:05:59,567] [INFO] -- Starting certification computation...
+[2026-03-23 12:05:59,611] [INFO] -- Waiting until computation finishes...
+[2026-03-23 12:05:59,653] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'RUNNING'}
+[2026-03-23 12:06:04,703] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'RUNNING'}
+[2026-03-23 12:06:09,753] [INFO] {'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'RUNNING'}
+[2026-03-23 12:06:14,844] [INFO] {'log_lines': ['You are offline and the cache for model files in Transformers v4.22.0 has been updated while your local cache seems to be the one of a previous version. It is very likely that all your calls to any `from_pretrained()` method will fail. Remove the offline mode and enable internet connection to have your cache be updated automatically, then you can go back to offline mode.', '\r0it [00:00, ?it/s]\r0it [00:00, ?it/s]', "Using the latest cached version of the dataset since nyu-mll/glue couldn't be found on the Hugging Face Hub (offline mode is enabled).", "Found the latest cached dataset configuration 'mrpc' at /tmp/inputs/HF_CACHE/datasets/nyu-mll___glue/mrpc/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c (last modified on Mon Mar 23 11:55:32 2026).", "sgugger/glue-mrpc nyu-mll/glue ['glue', 'mrpc']", '\rMap:   0%|          | 0/3668 [00:00<?, ? examples/s]\rMap:  27%|██▋       | 1000/3668 [00:00<00:00, 7187.07 examples/s]\rMap: 100%|██████████| 3668/3668 [00:00<00:00, 16514.64 examples/s]', '\rMap:   0%|          | 0/408 [00:00<?, ? examples/s]\rMap: 100%|██████████| 408/408 [00:00<00:00, 25029.63 examples/s]', '\rMap:   0%|          | 0/1725 [00:00<?, ? examples/s]\rMap: 100%|██████████| 1725/1725 [00:00<00:00, 32774.38 examples/s]', '\r  0%|          | 0/26 [00:00<?, ?it/s]\r 42%|████▏     | 11/26 [00:00<00:00, 106.74it/s]\r 85%|████████▍ | 22/26 [00:00<00:00, 102.67it/s]\r100%|██████████| 26/26 [00:00<00:00, 100.75it/s]', '{', '    "eval_accuracy": 0.8553921568627451,', '    "eval_f1": 0.8973913043478261,', '    "eval_loss": 0.6565756797790527,', '    "eval_model_preparation_time": 0.002,', '    "eval_runtime": 0.8798,', '    "eval_samples_per_second": 463.742,', '    "eval_steps_per_second": 29.552', '}'], 'request_id': '6f1f564d-ac26-4319-9a55-c0fa87b4e7b2', 'status': 'FINISHED'}
+[2026-03-23 12:06:14,844] [INFO] -- Obtaining the certification result...
+{
+    "duet_admin_signature": "WDqqlx2Cige3pan1K5u3XATWqoWGXRQNFXc39GnoUiuNBcGo3ex/taLfsWz53FPdjVxdOI21ZAa91/27Wbe/XCSuWctDCGPuwOAuhIgizNhZz5smBTtznrRnA24jG4qMgPdRb3pbJgfRHs5/b27jHQlg3XFdq27JwyUvjCMT3ckOEYqQV/wOOAKLvzPpdqlamn5K+cY1A8FUpDJaymv1w6jbQ40QwP7E0krRLksDQEY9boYBG8V4hwTaSFpTpq41mINytiQ6xunh0V9r+tCEEbRNokl7FwizGL3CIDRkkg8Q0Ipm0MHeMHa14MRJH1XHy0hpYbs8nbVYaBMLp9Ce2ij2JWXGK4/5JRzCdC5yESKNiOsMC+R8/1/jTMtJHQP0geBe9dXPv9RUKARQJkc5q1XKyFnQGOUfrvaOZCSe01PM483hsuCIlttKvOqeQIAgbUcHP1LUSYG4smeqX4XVgNlmHrHbLzEaJCYpmSODmnRMI+Ul0qYe29UawWQcMaaWhV7CVRgo8ggp7r7UUxaeB5xpT4C/4BY5acVWogs7QkLt9LT1wKQ6GTzMSE105ehaqu3MWFLcFQuVeOmjw6JK7n40+zawBCK2k/aFRYKqPVdR/nxzXc7nfUp5y9ujo0OuAuuq8BUQc3vr7g2xBICfkC8+95B/UWgI41UZ0WMzFMo=",
+    "duet_service_result": {
+        "service_info": {
+            "service_code_hash": "b853d36744e9ca4b7105b25c5e3dd26d91c99f166bce1ed8264bbf77eaefe683",
+            "service_dependencies_hash": "06e8368f5451b021c83ac2b41ceac201a5bcdba3193377d84a7c0b0ffffb1e29",
+            "service_location": {
+                "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad": {
+                    "cloud_provider_metadata_result": {
+                        "azEnvironment": "AzurePublicCloud",
+                        "location": "westeurope"
+                    },
+                    "geoip_api_lookup_result": {
+                        "http://ip-api.com/json/": {
+                            "city": "Amsterdam",
+                            "country": "Netherlands",
+                            "countryCode": "NL",
+                            "lat": 52.3667,
+                            "lon": 4.9
+                        },
+                        "https://api.ipwho.org/ip/": {},
+                        "https://apip.cc/json": {
+                            "City": "Amsterdam",
+                            "CountryCode": "NL",
+                            "CountryName": "The Netherlands",
+                            "Latitude": "52.3759",
+                            "Longitude": "4.8975"
+                        },
+                        "https://free.freeipapi.com/api/json/": {
+                            "cityName": "Amsterdam",
+                            "countryCode": "NL",
+                            "countryName": "The Netherlands",
+                            "latitude": 52.3676,
+                            "longitude": 4.90414
+                        },
+                        "https://geoapi.info/api/geo": {},
+                        "https://ipinfo.io/": {
+                            "city": "Amsterdam",
+                            "country": "NL",
+                            "loc": "52.3740,4.8897"
+                        },
+                        "https://reallyfreegeoip.org/json/": {
+                            "city": "Amsterdam",
+                            "country_code": "NL",
+                            "country_name": "The Netherlands",
+                            "latitude": 52.3759,
+                            "longitude": 4.8975
+                        }
+                    },
+                    "rtt_based_estimation_result": {
+                        "closest_areas_rtt_ms": {
+                            "Alphen Aan Den Rijn, NL": 3.077,
+                            "Amsterdam, NL": 0.924,
+                            "Arnhem, NL": 4.558,
+                            "Capelle Aan Den Ijssel, NL": 3.461,
+                            "Delft, NL": 2.712,
+                            "Dronten, NL": 2.116,
+                            "Duesseldorf, DE": 4.095,
+                            "Dusseldorf, DE": 4.006,
+                            "Ede, NL": 2.471,
+                            "Haarlem, NL": 1.609,
+                            "Harderwijk, NL": 3.516,
+                            "Hoofddorp, NL": 1.391,
+                            "Meppel, NL": 3.54,
+                            "Rotterdam, NL": 2.057,
+                            "Schiphol Rijk, NL": 1.834,
+                            "Steenbergen, NL": 5.167,
+                            "The Hague, NL": 2.77,
+                            "Utrecht, NL": 2.173,
+                            "Veendam, NL": 4.378,
+                            "Zaventem, BE": 4.891
+                        },
+                        "estimated_coordinates": {
+                            "latitude": 52.22671871201438,
+                            "longitude": 4.9838660105135135
+                        },
+                        "estimated_possible_countries": {
+                            "BE": 0.010135232050181674,
+                            "DE": 0.029566437866833068,
+                            "NL": 0.9602983300829852
+                        },
+                        "reverse_geocode_lookup": {
+                            "https://api.bigdatacloud.net/data/reverse-geocode-client": {
+                                "city": "Gemeente De Ronde Venen",
+                                "countryCode": "NL",
+                                "countryName": "Netherlands (Kingdom of the)"
+                            }
+                        }
+                    },
+                    "service_owner_config_result": "westeurope"
+                }
+            },
+            "service_tools_hashes": {
+                "build_tools.py": "95fb3d065af5c8c1b25e0cb22a76c193cafe57158c7eee85849bc1c94bf8f4ab",
+                "huggingface": "86e3b11ab5475b83ada1f34cae1089aff14eb236e3814fbb42228d517a5c8bb9"
+            }
+        },
+        "service_result": {
+            "certificates": {},
+            "hashes": {
+                "code": {
+                    "code.tar": "71d7698a8c24a7702325d8842b59babc3cd6ea7a970a9c754b380b4ae3c0f9d9"
+                },
+                "code_build_args": {},
+                "inputs": {
+                    "HF_CACHE/datasets/nyu-mll___glue/mrpc/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/dataset_info.json": "3a3c96bf840098c7910321d4b4e72daebee0163b8553151f86e2b19413a33c6e",
+                    "HF_CACHE/datasets/nyu-mll___glue/mrpc/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/glue-test.arrow": "0152c178bc09c083804600f657ae610005dfce932f29435cd4938509f9643d71",
+                    "HF_CACHE/datasets/nyu-mll___glue/mrpc/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/glue-train.arrow": "bf8629f88da668353e68449a2c4d1add9aa70c29abddaffb2074ad001fa048ce",
+                    "HF_CACHE/datasets/nyu-mll___glue/mrpc/0.0.0/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/glue-validation.arrow": "e9136b50592fd5b4fd9b072ce7fc5d8b8119868c6003f41cfba51ce3c41f518b",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/.no_exist/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/.huggingface.yaml": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/.no_exist/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/dataset_infos.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/.no_exist/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/glue.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/blobs/274c0b2c4c5524fe09285a8b7d945fe98a1dfe7a": "073f689c80fc6b3366d583eb570a05be2140b01ff2fdd706c416e14d0d2d5d5a",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/blobs/33c007dbf5bfa8463d87a13e6226df8c0fcf2596c2cd39d0f3bb79754e00f50f": "33c007dbf5bfa8463d87a13e6226df8c0fcf2596c2cd39d0f3bb79754e00f50f",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/blobs/61fd41301e0e244b0420c4350a170c8e7cf64740335fc875a4af2d79af0df0af": "61fd41301e0e244b0420c4350a170c8e7cf64740335fc875a4af2d79af0df0af",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/blobs/a623ed1cbdf445b11f8e249acbf649d7d3a5ee58c918554c40cbd8307e488693": "a623ed1cbdf445b11f8e249acbf649d7d3a5ee58c918554c40cbd8307e488693",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/refs/main": "89f37dd958a1d1a54613ca01cdaf6dd582f6ee0c6c6f33eb44c38ff8dc2527f7",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/snapshots/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/README.md": "073f689c80fc6b3366d583eb570a05be2140b01ff2fdd706c416e14d0d2d5d5a",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/snapshots/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/mrpc/test-00000-of-00001.parquet": "a623ed1cbdf445b11f8e249acbf649d7d3a5ee58c918554c40cbd8307e488693",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/snapshots/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/mrpc/train-00000-of-00001.parquet": "61fd41301e0e244b0420c4350a170c8e7cf64740335fc875a4af2d79af0df0af",
+                    "HF_CACHE/hub/datasets--nyu-mll--glue/snapshots/bcdcba79d07bc864c1c254ccfcedcce55bcc9a8c/mrpc/validation-00000-of-00001.parquet": "33c007dbf5bfa8463d87a13e6226df8c0fcf2596c2cd39d0f3bb79754e00f50f",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/0348ea97130c017c407fcfb6fd4003859f17b84c": "750c10cd267eec2ff1b7afb10688e624b33cf558eef41ed63e00ef640e7fe38a",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/27e91ef352445d171569225f0a44ae5146d5344ab069696e1025665098652d9b": "27e91ef352445d171569225f0a44ae5146d5344ab069696e1025665098652d9b",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/2ea941cc79a6f3d7985ca6991ef4f67dad62af04": "eeaa9875b23b04b4c54ef759d03db9d1ba1554838f8fb26c5d96fa551df93d02",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/3a71b11d47c6d2f844d0b8e5fdabdf305da15a0613ab74c963c47947f51ca637": "3a71b11d47c6d2f844d0b8e5fdabdf305da15a0613ab74c963c47947f51ca637",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/51138162a12678e959ac359335e62ad69bed092335471c53048be675ce846788": "51138162a12678e959ac359335e62ad69bed092335471c53048be675ce846788",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/67182760c537344000da59f4f96f6b2baf272981": "fb158c07838d51af1ecb8bb0861fc812c6e2f3c98538a9ac485f7c6f3f47938b",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/678ea4bc53c13726decd4a0105c44c72d701ded0": "286d1408a3df75d5fdf323f8f123ca157e1fd8b43f7061be099c53d56e0a03c6",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/6d34772f5ca361021038b404fb913ec8dc0b1a5a": "fa057bb09b78fe6d33af5a01440be5e8c881cd8055de35ee5588ea759cf57bfc",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/8e6bcce13ce077703de6f4aa0e4da16ad98e1c51": "ed778052517c904c85acf8ae409973631e8a153c95ebcca0aff549da7cfb9946",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/a9862e679be7008c2d8f9f25ee8aa5a724556426": "688c82079f8f0f340f714e816300055d4ccb074859689fd42b76f8b089315059",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/b20f02df3f29613d603bd54cce902e5b6bd4340e": "c25c149558240f95778c719416647f4eb42ad9829a4ec06bd0bf9315114a629a",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/b8f03fdcf6a34e06129842446ade31d7350953a9": "f1c9a551c44ddd5de56b6fef0577298c2733640d32bb911353e6e9a00af5743f",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/c95fb2dc031647f3d3032c29ba4121374e4320d4": "f71993ea5bd359810c5084bd4ebb5980ede9c016f3df194e8bc08443c5049374",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/d0254706212dbd60dcf201b55340fa1cedd93a18": "131d2c4c443fa23ee7e5ea5c025d79fe4a7fc2d630458d0b3d8584d35847d69e",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/d23b8d91361adc100bb7495f2203a66331ff94ec": "67d4985f8eea30c30dedafe8118ec55eaf835aceb007dc54f8cd535a0483b021",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/e351cf834d1709e3d0723a0d0e35dd98789c22779168a5572032b809b15d5e8a": "e351cf834d1709e3d0723a0d0e35dd98789c22779168a5572032b809b15d5e8a",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/e7b0375001f109a6b8873d756ad4f7bbb15fbaa5": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/blobs/f32419581b9c64a42e3d58647ccb4c32907cc7e88f7454793caec78a4d754e10": "f32419581b9c64a42e3d58647ccb4c32907cc7e88f7454793caec78a4d754e10",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/refs/main": "e1d22cd608a2ca9e44f97fa234127c3541a28c97a913f682cc0eef617d65f1c7",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/.gitattributes": "fa057bb09b78fe6d33af5a01440be5e8c881cd8055de35ee5588ea759cf57bfc",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/.gitignore": "750c10cd267eec2ff1b7afb10688e624b33cf558eef41ed63e00ef640e7fe38a",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/README.md": "c25c149558240f95778c719416647f4eb42ad9829a4ec06bd0bf9315114a629a",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/all_results.json": "fb158c07838d51af1ecb8bb0861fc812c6e2f3c98538a9ac485f7c6f3f47938b",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/config.json": "688c82079f8f0f340f714e816300055d4ccb074859689fd42b76f8b089315059",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/emissions.csv": "286d1408a3df75d5fdf323f8f123ca157e1fd8b43f7061be099c53d56e0a03c6",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/eval_results.json": "131d2c4c443fa23ee7e5ea5c025d79fe4a7fc2d630458d0b3d8584d35847d69e",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/pytorch_model.bin": "f32419581b9c64a42e3d58647ccb4c32907cc7e88f7454793caec78a4d754e10",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/runs/Dec06_16-34-15_brahms/1638826467.4483979/events.out.tfevents.1638826467.brahms.2959279.1": "3a71b11d47c6d2f844d0b8e5fdabdf305da15a0613ab74c963c47947f51ca637",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/runs/Dec06_16-34-15_brahms/events.out.tfevents.1638826467.brahms.2959279.0": "e351cf834d1709e3d0723a0d0e35dd98789c22779168a5572032b809b15d5e8a",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/runs/Dec06_16-34-15_brahms/events.out.tfevents.1638826553.brahms.2959279.2": "51138162a12678e959ac359335e62ad69bed092335471c53048be675ce846788",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/special_tokens_map.json": "303df45a03609e4ead04bc3dc1536d0ab19b5358db685b6f3da123d05ec200e3",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/tokenizer.json": "f1c9a551c44ddd5de56b6fef0577298c2733640d32bb911353e6e9a00af5743f",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/tokenizer_config.json": "67d4985f8eea30c30dedafe8118ec55eaf835aceb007dc54f8cd535a0483b021",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/train_results.json": "ed778052517c904c85acf8ae409973631e8a153c95ebcca0aff549da7cfb9946",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/trainer_state.json": "f71993ea5bd359810c5084bd4ebb5980ede9c016f3df194e8bc08443c5049374",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/training_args.bin": "27e91ef352445d171569225f0a44ae5146d5344ab069696e1025665098652d9b",
+                    "HF_CACHE/hub/models--sgugger--glue-mrpc/snapshots/7735f0206d4d8ba3cb788e94fad43f98ea175995/vocab.txt": "eeaa9875b23b04b4c54ef759d03db9d1ba1554838f8fb26c5d96fa551df93d02",
+                    "dotenv": "b6454a541e165a0ba67725e4b55d92ee4d4e5318f2155d8d2d1e079c5cedac6b"
+                },
+                "outputs": {
+                    "computation_result.json": "8f9f8a89f3861a1735410391abbccee488ec23b77a546af5722500f3b946f38f"
+                }
+            },
+            "power_usage": {
+                "codecarbon": {
+                    "01_uploads": 4.886692464479164e-05,
+                    "02_preparing_downloading_files": 0.00028003505706666616,
+                    "03_preparing_computing_hashes": 2.2777196071548323e-05,
+                    "04_preparing_building_container_image": 0.011758889757869364,
+                    "05_running": 0.0002597964603106806,
+                    "99_total_power_usage_KWh": 0.01237036539596305
+                }
+            },
+            "timestamp": 1774267574.8620408
+        }
+    }
+}
+[2026-03-23 12:06:14,868] [INFO] -- Storing the asset certificate...
+[2026-03-23 12:06:14,869] [INFO] -- Obtaining the computation outputs referred in the asset certificate...
+[2026-03-23 12:06:14,869] [INFO] --- Downloading and storing: computation_result.json
+[2026-03-23 12:06:14,908] [INFO] ==================================================
+Total time (s): 660.4837214946747

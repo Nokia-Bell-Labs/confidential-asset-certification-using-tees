@@ -1,0 +1,864 @@
+[2026-03-23 17:07:13,566] [INFO] examples/software/ros-realtime/linux-real-time-kernel-builder/
+{'name': 'ros-realtime/linux-real-time-kernel-builder', 'inputs': [], 'code_folder': 'code/'}
+[2026-03-23 17:07:13,566] [INFO] Setting up duet controller interaction...
+[2026-03-23 17:07:13,566] [INFO] Obtaining and verifying the state of the duet admin...
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:1020: InsecureRequestWarning: Unverified HTTPS request is being made to host '127.0.0.1'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  warnings.warn(
+Expecting MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Found MRENCLAVE: 9cd38b0f69562e81f5ae50e1a57b79b454f7f68595a7d4e5e34b6c75c4d154c8
+Valid SGX controller: True
+[OK] Verified service info.
+[2026-03-23 17:07:13,936] [INFO] Creating a certification request for: ros-realtime/linux-real-time-kernel-builder
+[2026-03-23 17:07:13,984] [INFO] Certification request: {
+    "request_cvm_id": "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad",
+    "request_id": "8405176c-1ccf-4998-9c4a-dcff70e0a29b",
+    "request_token": "12e7fe70d885754cc1ed2b0aa38e56f4f6c47876641af615a3ce399aad24da57"
+}
+[2026-03-23 17:07:13,984] [INFO] -- Creating the computation code archive...
+[2026-03-23 17:07:13,984] [INFO] examples/software/ros-realtime/linux-real-time-kernel-builder/code/
+['examples/software/ros-realtime/linux-real-time-kernel-builder/code/.config-fragment', 'examples/software/ros-realtime/linux-real-time-kernel-builder/code/Dockerfile', 'examples/software/ros-realtime/linux-real-time-kernel-builder/code/copy_files.sh', 'examples/software/ros-realtime/linux-real-time-kernel-builder/code/getpatch.sh']
+-- Archiving examples/software/ros-realtime/linux-real-time-kernel-builder/code/ into buffer...
+examples/software/ros-realtime/linux-real-time-kernel-builder/code/.config-fragment
+examples/software/ros-realtime/linux-real-time-kernel-builder/code/Dockerfile
+examples/software/ros-realtime/linux-real-time-kernel-builder/code/copy_files.sh
+examples/software/ros-realtime/linux-real-time-kernel-builder/code/getpatch.sh
+[2026-03-23 17:07:13,985] [INFO] -- Uploading the computation code archive...
+Property computation code hash: fff452eb81453c7be10b69c614b92c5e188848f34c8598f40e575d10c111b027
+[2026-03-23 17:07:16,797] [INFO] -- Preparing the computation...
+[2026-03-23 17:07:16,840] [INFO] -- Waiting until preparation finishes...
+[2026-03-23 17:07:16,882] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'INITIALIZING'}
+[2026-03-23 17:07:21,933] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_COMPUTING_HASHES'}
+[2026-03-23 17:07:26,982] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:07:32,031] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:07:37,081] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:07:42,128] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:07:47,174] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:07:52,227] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:07:57,277] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:02,326] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:07,374] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:12,422] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:17,471] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:22,521] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:27,566] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:32,615] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:37,662] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:42,711] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:47,759] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:52,808] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:08:57,856] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:02,907] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:07,956] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:13,007] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:18,054] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:23,100] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:28,149] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:33,200] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:38,249] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:43,298] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:48,340] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:53,390] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:09:58,439] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:03,489] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:08,539] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:13,587] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:18,637] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:23,685] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:28,733] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:33,783] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:38,830] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:43,880] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:48,928] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:53,975] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:10:59,024] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:04,074] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:09,119] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:14,169] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:19,219] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:24,269] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:29,318] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:34,366] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:39,416] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:44,466] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:49,515] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:54,564] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:11:59,613] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:04,663] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:09,713] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:14,762] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:19,812] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:24,863] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:29,913] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:34,962] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:40,011] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:45,060] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:50,108] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:12:55,159] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:00,208] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:05,256] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:10,305] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:15,353] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:20,402] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:25,452] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:30,504] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:35,554] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:40,604] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:45,653] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:50,704] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:13:55,753] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:00,803] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:05,857] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:10,906] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:15,952] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:21,002] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:26,053] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:31,102] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:36,151] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:41,199] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:46,247] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:51,296] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:14:56,344] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:01,392] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:06,439] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:11,489] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:16,539] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:21,589] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:26,704] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:31,754] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:36,803] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:41,851] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:46,900] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:51,952] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:15:57,002] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:02,051] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:07,100] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:12,148] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:17,198] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:22,247] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:27,296] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:32,345] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:37,394] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:42,443] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:47,492] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:52,539] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:16:57,588] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:02,637] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:07,690] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:12,741] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:17,791] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:22,840] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:27,889] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:32,937] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:37,986] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:43,035] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:48,083] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:53,135] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:17:58,183] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:03,232] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:08,284] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:13,334] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:18,384] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:23,434] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:28,483] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:33,532] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:38,583] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:43,635] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:48,686] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:53,735] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:18:58,783] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:03,830] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:08,881] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:13,930] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:18,977] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:24,025] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:29,071] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:34,119] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:39,166] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:44,216] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:49,262] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:54,308] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:19:59,357] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:04,404] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:09,451] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:14,502] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:19,550] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:24,597] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:29,645] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:34,690] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:39,740] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:44,788] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:49,837] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:54,887] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:20:59,935] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:04,984] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:10,030] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:15,079] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:20,130] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:25,180] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:30,228] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:35,275] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:40,323] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:45,372] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:50,421] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:21:55,470] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:00,517] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:05,568] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:10,617] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:15,663] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:20,712] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:25,760] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:30,809] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:35,859] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:40,908] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:45,957] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:51,004] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:22:56,054] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:01,103] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:06,152] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:11,200] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:16,250] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:21,299] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:26,348] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:31,395] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:36,443] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:41,494] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:46,543] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:51,594] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:23:56,643] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:01,694] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:06,743] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:11,791] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:16,841] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:21,890] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:26,939] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:31,989] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:37,038] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:42,086] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:47,136] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:52,184] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:24:57,233] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:02,281] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:07,329] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:12,378] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:17,428] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:22,476] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:27,525] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:32,573] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:37,622] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:42,670] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:47,719] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:52,767] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:25:57,815] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:02,864] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:07,913] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:12,962] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:18,010] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:23,058] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:28,106] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:33,155] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:38,205] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:43,255] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:48,302] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:53,351] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:26:58,399] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:03,448] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:08,496] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:13,545] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:18,594] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:23,643] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:28,692] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:33,741] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:38,788] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:43,837] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:48,886] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:53,935] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:27:58,983] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:04,031] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:09,079] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:14,134] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:19,183] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:24,230] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:29,278] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:34,327] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:39,376] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:44,424] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:49,472] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:54,521] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:28:59,571] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:04,619] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:09,668] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:14,717] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:20,248] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:25,297] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:30,345] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:35,394] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:40,442] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:45,493] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:50,539] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:29:55,587] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:00,635] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:05,685] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:10,739] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:15,810] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:20,857] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:25,905] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:30,956] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:36,005] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:41,055] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:46,104] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:51,154] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:30:56,203] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:01,252] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:06,301] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:11,350] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:16,398] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:21,445] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:26,493] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:31,543] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:36,590] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:41,639] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:46,688] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:51,738] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:31:56,789] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:01,838] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:06,887] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:11,938] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:16,987] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:22,036] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:27,084] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:32,134] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:37,184] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:42,232] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:47,284] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:52,331] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:32:57,381] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:02,429] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:07,477] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:12,525] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:17,577] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:22,629] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:27,679] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:32,727] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:37,776] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:42,824] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:47,873] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:52,923] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:33:57,972] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:03,021] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:08,069] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:13,117] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:18,167] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:23,216] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:28,262] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:33,311] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:38,358] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:43,407] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:48,457] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:53,507] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:34:58,558] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:03,608] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:08,673] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:13,723] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:18,772] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:23,821] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:29,106] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:34,154] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:39,207] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:44,254] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:49,303] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:54,352] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:35:59,401] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:04,451] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:09,501] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:14,549] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:19,597] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:24,642] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:29,692] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:34,741] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:39,791] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:44,839] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:49,889] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:54,937] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:36:59,982] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:05,031] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:10,081] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:15,129] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:20,176] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:25,225] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:30,274] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:35,328] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:40,377] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:45,427] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:50,475] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:37:55,524] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:00,577] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:05,623] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:10,676] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:15,723] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:21,078] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:26,128] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:31,180] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:36,230] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:41,278] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:46,327] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:51,375] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:38:56,423] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:01,470] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:06,520] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:11,568] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:16,618] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:21,670] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:26,719] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:31,768] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:36,817] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:41,867] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:46,916] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:51,965] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:39:57,015] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:02,064] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:07,112] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:12,162] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:17,213] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:22,262] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:27,311] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:32,361] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:37,412] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:42,461] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:47,510] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:52,559] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:40:57,607] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:02,656] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:07,704] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:12,753] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:17,800] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:22,848] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:27,897] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:32,945] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:37,994] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:43,041] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:48,091] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:53,135] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:41:58,185] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:03,234] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:08,281] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:13,330] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:18,378] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:24,575] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:29,625] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:34,669] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:39,721] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:44,769] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:49,817] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:54,870] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:42:59,920] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:04,965] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:10,017] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:15,066] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:20,115] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:25,165] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:30,214] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:35,263] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:40,312] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:48,672] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:53,715] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:43:58,766] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:03,817] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:08,865] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:13,914] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:18,965] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:24,011] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:29,061] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:34,110] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:39,159] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:44,207] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:49,256] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:54,305] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:44:59,353] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:04,401] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:09,451] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:14,500] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:19,548] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:24,598] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:29,645] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:34,694] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:39,743] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:44,791] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:49,841] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:54,890] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:45:59,940] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:04,984] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:10,032] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:15,081] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:20,129] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:25,179] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:30,227] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:35,276] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:40,324] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:45,372] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:50,421] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:46:55,469] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:00,520] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:05,570] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:10,620] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:15,667] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:20,715] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:25,765] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:30,814] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:35,862] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:40,909] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:45,964] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:51,013] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:47:56,062] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:01,110] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:06,159] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:11,208] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:16,258] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:21,308] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:26,357] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:31,406] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:36,456] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:41,506] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:46,549] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:51,598] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:48:56,647] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:01,696] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:06,745] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:11,794] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:16,845] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:21,894] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:26,943] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:31,992] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:37,040] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:42,091] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:47,138] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:52,187] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:49:57,234] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:02,279] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:07,328] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:12,376] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:17,425] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:22,475] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:27,529] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:32,581] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:37,630] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:42,679] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:47,728] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:52,775] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:50:57,825] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:02,876] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:07,925] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:12,973] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:18,022] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:23,071] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:28,119] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:33,168] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:38,217] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:43,265] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:48,312] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:53,365] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:51:58,414] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:03,464] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:08,513] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:13,564] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:18,615] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:23,664] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:28,719] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:33,770] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:38,816] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:43,861] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:48,909] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:53,957] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:52:59,006] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:04,053] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:09,102] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:14,149] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:19,198] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:24,242] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:29,286] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:34,334] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:39,386] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:44,436] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:49,485] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:54,535] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:53:59,584] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:04,633] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:09,682] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:14,731] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:19,781] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:24,830] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:29,879] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:34,928] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:39,977] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:45,025] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:50,071] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:54:55,120] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:00,171] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:05,220] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:10,268] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:15,323] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:20,371] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:25,418] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:30,468] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:35,516] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:40,565] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:45,614] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:50,664] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:55:55,710] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:00,758] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:05,819] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:10,867] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:15,916] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:20,965] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:26,016] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:31,066] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:36,114] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:41,164] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:46,214] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:51,263] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:56:56,312] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:01,360] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:06,410] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:11,456] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:16,506] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:21,554] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:26,603] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:31,651] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:36,700] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:41,749] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:46,798] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:51,847] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:57:56,895] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:01,946] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:06,996] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:12,045] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:17,094] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:22,143] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:27,192] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:32,240] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:37,289] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:42,338] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:47,386] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:52,435] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:58:57,483] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:02,531] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:07,581] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:12,627] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:17,679] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:22,726] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:27,776] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:32,825] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:37,870] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:42,920] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:47,967] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:53,016] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 17:59:58,064] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:03,113] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:08,165] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:13,213] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:18,261] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:23,309] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:28,357] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:33,407] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:38,454] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:43,503] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:48,553] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:53,601] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:00:58,649] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:03,696] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:08,744] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:13,792] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:18,841] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:23,890] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:28,938] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:33,987] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:39,035] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:44,080] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:49,130] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:54,189] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:01:59,239] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:04,288] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:09,339] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:15,282] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:20,332] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:25,380] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:30,425] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:35,475] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:40,522] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:45,573] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:50,621] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:02:55,668] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:00,717] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:05,765] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:10,897] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:15,941] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:20,991] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:26,041] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:31,090] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:36,139] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:41,190] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:46,237] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:51,281] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:03:56,329] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:01,378] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:06,426] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:11,473] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:16,522] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:21,571] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:26,621] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:31,671] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:36,719] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:41,768] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:46,820] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:51,869] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:04:56,918] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:01,969] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:07,017] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:12,066] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:17,115] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:22,165] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:27,213] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:32,262] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:37,311] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:42,359] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:47,409] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:52,459] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:05:57,507] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:06:02,556] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'PREPARING_BUILDING_CONTAINER_IMAGE'}
+[2026-03-23 18:06:07,601] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'READY'}
+[2026-03-23 18:06:07,601] [INFO] -- Starting certification computation...
+[2026-03-23 18:06:07,646] [INFO] -- Waiting until computation finishes...
+[2026-03-23 18:06:07,689] [INFO] {'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'RUNNING'}
+[2026-03-23 18:06:12,857] [INFO] {'log_lines': [], 'request_id': '8405176c-1ccf-4998-9c4a-dcff70e0a29b', 'status': 'FINISHED'}
+[2026-03-23 18:06:12,857] [INFO] -- Obtaining the certification result...
+{
+    "duet_admin_signature": "WwlI5c+3z+A8bgylXG+grcuba6mc2o38CnSeTaFDPucq5ESmZpAsUtk8urBJB+iy085j3OYiKdhRDJYovNSZ2rm7/ZtTaiSXq8iNj5NwsTR5kNv/5JTTEwpaXXJvZ1yOgWLGjEiSyXa2BSDYUJTNFL3mcncuUFOFxo4rSJlDrZVxEzxkmOqMI2FutFXFcbI1K9zp3OkegCxLY1B2XLjsyLOmtXaeZloq7h/JymYP4V5WcSZHkyBaiqz3p8+ar4nPOsAom8fQaKBsdltHXM2gYE73+bAso2Fjom4KdHnPybIo4EcPbS5zpaxW+ZlgFzl8IlQS7VSBs5NSjZzeSN143UcoyuRMozltW973Ob2CVgc4xUKl6EqVSTr1SnUGA+Ri6jiZscsKNEVFUSo09Ftw81LHDwfHzgRZAyGfGRzSBX50IfxIcQQ1y5wXntXDSyjUydZ0SGue+/aneJISYoBQuKyA/iMSr2Eno2emDDk/bucCJGCUSmoZOTFSQ+kg+NZB8No5HGyIV8KTYw/sCW3Y9VSyJbCtrBrvasx7qW5+MQKZL4NV1Ctuyg+gdcqXyF8AmD6wg7C75RSHargdP0XFJQzQ6fs0NVIitt3PNQ+Tmb8Mrav2NohMEJxnls8htI3BeYxJ4C+hUaCCbBFpUgldCtua8K4I7Oc5qK6387as800=",
+    "duet_service_result": {
+        "service_info": {
+            "service_code_hash": "b853d36744e9ca4b7105b25c5e3dd26d91c99f166bce1ed8264bbf77eaefe683",
+            "service_dependencies_hash": "06e8368f5451b021c83ac2b41ceac201a5bcdba3193377d84a7c0b0ffffb1e29",
+            "service_location": {
+                "6423a8f7dbc60f3d970acdefa71dc4f0415ac868697fb377c0ce0dd768a167ad": {
+                    "cloud_provider_metadata_result": {
+                        "azEnvironment": "AzurePublicCloud",
+                        "location": "westeurope"
+                    },
+                    "geoip_api_lookup_result": {
+                        "http://ip-api.com/json/": {
+                            "city": "Amsterdam",
+                            "country": "Netherlands",
+                            "countryCode": "NL",
+                            "lat": 52.3667,
+                            "lon": 4.9
+                        },
+                        "https://api.ipwho.org/ip/": {},
+                        "https://apip.cc/json": {
+                            "City": "Amsterdam",
+                            "CountryCode": "NL",
+                            "CountryName": "The Netherlands",
+                            "Latitude": "52.3759",
+                            "Longitude": "4.8975"
+                        },
+                        "https://free.freeipapi.com/api/json/": {
+                            "cityName": "Amsterdam",
+                            "countryCode": "NL",
+                            "countryName": "The Netherlands",
+                            "latitude": 52.3676,
+                            "longitude": 4.90414
+                        },
+                        "https://geoapi.info/api/geo": {},
+                        "https://ipinfo.io/": {
+                            "city": "Amsterdam",
+                            "country": "NL",
+                            "loc": "52.3740,4.8897"
+                        },
+                        "https://reallyfreegeoip.org/json/": {
+                            "city": "Amsterdam",
+                            "country_code": "NL",
+                            "country_name": "The Netherlands",
+                            "latitude": 52.3759,
+                            "longitude": 4.8975
+                        }
+                    },
+                    "rtt_based_estimation_result": {
+                        "closest_areas_rtt_ms": {
+                            "Alphen Aan Den Rijn, NL": 3.077,
+                            "Amsterdam, NL": 0.924,
+                            "Arnhem, NL": 4.558,
+                            "Capelle Aan Den Ijssel, NL": 3.461,
+                            "Delft, NL": 2.712,
+                            "Dronten, NL": 2.116,
+                            "Duesseldorf, DE": 4.095,
+                            "Dusseldorf, DE": 4.006,
+                            "Ede, NL": 2.471,
+                            "Haarlem, NL": 1.609,
+                            "Harderwijk, NL": 3.516,
+                            "Hoofddorp, NL": 1.391,
+                            "Meppel, NL": 3.54,
+                            "Rotterdam, NL": 2.057,
+                            "Schiphol Rijk, NL": 1.834,
+                            "Steenbergen, NL": 5.167,
+                            "The Hague, NL": 2.77,
+                            "Utrecht, NL": 2.173,
+                            "Veendam, NL": 4.378,
+                            "Zaventem, BE": 4.891
+                        },
+                        "estimated_coordinates": {
+                            "latitude": 52.22671871201438,
+                            "longitude": 4.9838660105135135
+                        },
+                        "estimated_possible_countries": {
+                            "BE": 0.010135232050181674,
+                            "DE": 0.029566437866833068,
+                            "NL": 0.9602983300829852
+                        },
+                        "reverse_geocode_lookup": {
+                            "https://api.bigdatacloud.net/data/reverse-geocode-client": {
+                                "city": "Gemeente De Ronde Venen",
+                                "countryCode": "NL",
+                                "countryName": "Netherlands (Kingdom of the)"
+                            }
+                        }
+                    },
+                    "service_owner_config_result": "westeurope"
+                }
+            },
+            "service_tools_hashes": {
+                "build_tools.py": "95fb3d065af5c8c1b25e0cb22a76c193cafe57158c7eee85849bc1c94bf8f4ab",
+                "huggingface": "86e3b11ab5475b83ada1f34cae1089aff14eb236e3814fbb42228d517a5c8bb9"
+            }
+        },
+        "service_result": {
+            "certificates": {},
+            "hashes": {
+                "code": {
+                    "code.tar": "fff452eb81453c7be10b69c614b92c5e188848f34c8598f40e575d10c111b027"
+                },
+                "code_build_args": {},
+                "inputs": {},
+                "outputs": {
+                    "linux-headers-6.8.4-rt11-raspi_6.8.4-g75867ff0890f-1_arm64.deb": "44847677ef4ac5ca6a969c4a01e6916c1ee16e229db1bd94425fd0b07b83fc55",
+                    "linux-image-6.8.4-rt11-raspi_6.8.4-g75867ff0890f-1_arm64.deb": "3be2867dc5c37d5f0d95366b953c0ac09d57c421b4c2431753640a6b8e3fd69a",
+                    "linux-libc-dev_6.8.4-g75867ff0890f-1_arm64.deb": "bb0f36344856b78e0b2ff04c67fd4b7d0e6a8a80d482b919a8cb870c73e0e972"
+                }
+            },
+            "power_usage": {
+                "codecarbon": {
+                    "01_uploads": 1.0348831963211275e-05,
+                    "02_preparing_downloading_files": 1.0346642506534456e-05,
+                    "03_preparing_computing_hashes": 1.0347302224132133e-05,
+                    "04_preparing_building_container_image": 0.06753007866698402,
+                    "05_running": 3.928843372484311e-05,
+                    "99_total_power_usage_KWh": 0.06760040987740275
+                }
+            },
+            "timestamp": 1774289172.8759155
+        }
+    }
+}
+[2026-03-23 18:06:12,892] [INFO] -- Storing the asset certificate...
+[2026-03-23 18:06:12,892] [INFO] -- Obtaining the computation outputs referred in the asset certificate...
+[2026-03-23 18:06:12,892] [INFO] --- Downloading and storing: linux-headers-6.8.4-rt11-raspi_6.8.4-g75867ff0890f-1_arm64.deb
+[2026-03-23 18:06:13,161] [INFO] --- Downloading and storing: linux-image-6.8.4-rt11-raspi_6.8.4-g75867ff0890f-1_arm64.deb
+[2026-03-23 18:06:14,805] [INFO] --- Downloading and storing: linux-libc-dev_6.8.4-g75867ff0890f-1_arm64.deb
+[2026-03-23 18:06:14,854] [INFO] ==================================================
+Total time (s): 3541.288412809372

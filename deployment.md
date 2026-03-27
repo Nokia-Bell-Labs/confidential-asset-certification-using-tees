@@ -181,6 +181,13 @@ where the asset certificate and computation output is stored (e.g., `test_result
 python3 test_asset_certificate_verification.py <example_config.json> <output_folder>
 ```
 
+One can pass the `ATTESTATION_SERVICE_URL` environment variable to use a different MAA endpoint (default value: `https://sharedneu.neu.attest.azure.net/`).
+
+```
+ATTESTATION_SERVICE_URL=https://sharedweu.weu.attest.azure.net/ python3 test_asset_certificate_verification.py <example_config.json> <output_folder>
+```
+
+
 ### Run direct mode
 
 Alternatively, one can also run the controller without the SGX. This is useful for debugging/developing the controller code.
@@ -245,13 +252,15 @@ It is also suggested to use the same location for the controller and the CVM (i.
 ## Known Issues
 ### Limitations of Quote Verification
 
-The client uses Microsoft Azure Attestation (MAA) service at `https://sharedneu.neu.attest.azure.net/` for quote verifications 
-(i.e., for interacting with the controller, for verifying certificates). Azure requires the caller to authenticate, which is 
-why **Azure credentials must be available in the environment**.
+The client uses Microsoft Azure Attestation (MAA) service for quote verifications 
+(i.e., for interacting with the controller, for verifying certificates).
 
-Clients running on Azure VMs or machines that are already authenticated with the Azure account do not require any additional credential configuration. 
+If the client is running on the same Azure VM as the controller or in another Azure VM, 
+no additional configuration is required.
 
-However, for clients outside this scope, additional configuration is required as follows.
+If not, Azure requires the caller to authenticate, which is 
+why Azure credentials must be available in the client's environment.
+The additional configuration for that environment can be set up as follows:
 
 1. Create an Azure service principal using Azure CLI:
 

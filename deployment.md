@@ -181,17 +181,6 @@ where the asset certificate and computation output is stored (e.g., `test_result
 python3 test_asset_certificate_verification.py <example_config.json> <output_folder>
 ```
 
-### Troubleshooting
-
-Currently, there is not much fault tolerance and error propagation. Please refer to the following steps for debugging any issues.
-
-1. Sometimes, the managed identity is removed from the Azure VM. It is not clear why this happens.
-As a result, the controller fails performing some provisioning operations for the CVM and throws an error.
-Please retry the commands from the client side.
-
-2. When there is an error at the client, the reason usually is an error not propagated from the server.
-To see what went wrong, one can get the server logs via `docker logs duetadmin-enclave`, which usually contain the error message from Azure.
-
 ### Run direct mode
 
 Alternatively, one can also run the controller without the SGX. This is useful for debugging/developing the controller code.
@@ -253,7 +242,8 @@ For these reasons, the Azure environment needs to be configured to allow these r
 We tested the launch of the controller and the CVMs in location `westeurope`, in which both types of VMs were available.
 It is also suggested to use the same location for the controller and the CVM (i.e., as defined in [azure_config.json.template](azure_config.json.template)).
 
-## Limitations of Quote Verification
+## Known Issues
+### Limitations of Quote Verification
 
 If the client is running on the same Azure VM as the controller or in another Azure VM, 
 the quote verification requests
@@ -263,3 +253,45 @@ work successfully without additional configuration.
 
 If not run from inside the Azure infrastructure, such requests to MAA
 currently require the client to have Azure credentials.
+We are working on providing step-by-step instructions on how to set that up.
+
+### Inconsistent MRENCLAVE Value for the Controller
+
+When the controller enclave is built using gramine libOS in a new machine,
+the controller's MRENCLAVE value may change.
+This is due to the duet/gramine image that is used to graminize the controller
+not being fully reproducible.
+We are working on it to fix it.
+
+### InsecureRequestWarning
+
+Alongside the attestation warnings you may see:
+
+```
+InsecureRequestWarning: Unverified HTTPS request is being made to host '...'.
+```
+
+This is expected. The initial connection to the controller via the SDK is done
+with TLS verification disabled
+because the controller uses a self-signed certificate
+that cannot be verified via standard CA chains.
+The quote verification step with the expected MRENCLAVE value is what establishes
+the security guarantee.
+
+Afterwards, the client SDK uses the self-signed certificate of the controller
+to establish secure communications with it.
+
+### Dropped Managed Identity from Controller VM
+
+Sometimes, the managed identity assigned to the controller's VM vanishes. 
+It is not clear why this happens.
+As a result, the controller fails performing some provisioning operations for the CVM and throws an error.
+Please check again if the VM has still the necessary identity as described above in the [Pre-requisites](#pre-requisites) and assign it again.
+
+Afterwards, retry the commands from the client side.
+
+### Troubleshooting
+
+Currently, there is not much fault tolerance and error propagation.
+When there is an error at the client, the reason usually is an error not propagated from the server.
+To see what went wrong, one can get the server logs via `docker logs duetadmin-enclave`, which usually contain the error message from Azure.

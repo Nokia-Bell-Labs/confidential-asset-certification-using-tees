@@ -263,6 +263,8 @@ This is due to the duet/gramine image that is used to graminize the controller
 not being fully reproducible.
 We are working on it to fix it.
 
+As a workaround on a single machine, the error messages can be fixed by updating the `duet_expected_hashes.json` file with the current MRENCLAVE value for the controller. 
+
 ### InsecureRequestWarning
 
 Alongside the attestation warnings you may see:
@@ -283,7 +285,7 @@ to establish secure communications with it.
 
 ### Dropped Managed Identity from Controller VM
 
-Sometimes, the managed identity assigned to the controller's VM vanishes. 
+Sometimes, the managed identity assigned to the controller's VM vanishes.
 It is not clear why this happens.
 As a result, the controller fails performing some provisioning operations for the CVM and throws an error.
 Please check again if the VM has still the necessary identity as described above in the [Pre-requisites](#pre-requisites) and assign it again.

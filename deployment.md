@@ -245,15 +245,56 @@ It is also suggested to use the same location for the controller and the CVM (i.
 ## Known Issues
 ### Limitations of Quote Verification
 
-If the client is running on the same Azure VM as the controller or in another Azure VM, 
-the quote verification requests
-to Microsoft Azure Attestation (MAA) service 
-(i.e., for remotely attesting the controller, for verifying certificates) 
-work successfully without additional configuration.
+The client uses Microsoft Azure Attestation (MAA) service at `https://sharedneu.neu.attest.azure.net/` for quote verifications 
+(i.e., for interacting with the controller, for verifying certificates). Azure requires the caller to authenticate, which is 
+why **Azure credentials must be available in the environment**.
 
-If not run from inside the Azure infrastructure, such requests to MAA
-currently require the client to have Azure credentials.
-We are working on providing step-by-step instructions on how to set that up.
+Clients running on Azure VMs or machines that are already authenticated with the Azure account do not require any additional credential configuration. 
+
+However, for clients outside this scope, additional configuration is required as follows.
+
+1. Create an Azure service principal using Azure CLI:
+
+	```bash
+	az ad sp create-for-rbac --name "duet-client"
+	```
+	
+	Example output:
+	```json
+	{
+	  "appId": "xxxxxx",
+	  "displayName": "duet-client",
+	  "password": "xxxxxx",
+	  "tenant": "xxxxxx"
+	}
+	```
+
+	Note the `appId` (-> `AZURE_CLIENT_ID`) and `tenant` (-> `AZURE_TENANT_ID`) from the output. Discard the generated `password` — the next step replaces it with a certificate credential.
+
+3. Create a certificate credential:
+
+	```bash
+	# Generate a self-signed certificate
+	openssl req -x509 -newkey rsa:4096 -keyout key.pem -out cert.pem -days 365 -nodes \
+	  -subj "/CN=duet-client"
+    
+	# Combine into a single PEM file for teh client (required by the Azure SDK)
+	cat cert.pem key.pem > client-cert.pem
+
+	# Upload the public certificate to the service principal
+	az ad app credential reset \
+      --id <appId> \
+	  --cert @cert.pem \
+	  --append
+	```
+
+4. Deliver credentials to the client and export variables three variables on the client:
+
+	```bash
+	export AZURE_CLIENT_ID=<clientId>
+	export AZURE_TENANT_ID=<tenantId>
+	export AZURE_CLIENT_CERTIFICATE_PATH=/path/to/client-cert.pem
+	```
 
 ### Inconsistent MRENCLAVE Value for the Controller
 
